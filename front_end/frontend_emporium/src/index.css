@@ -1,3 +1,5 @@
+/* ........about........... */
+
 .main{display: flex;align-items: center;justify-content: flex-start;margin-left: 150px;}
 .abtimg{width: 500px;margin-left: 100px;}
 .abtimg img{width: 500px}
@@ -5,3 +7,26 @@
 
 .midmain:hover{background-color: #DB4444;}
 .midmain{margin-left: 80px;}
+
+/* .......................error.......... */
+.errormain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.errorcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    flex-direction: column;
+}
+.errorbtn{
+    margin-top: 15px;
+    height: 30px;
+    width: 200px;
+    background-color: #DB4444;
+    border: none;
+    border-radius: 5px;
+    color: wheat;
+}
