@@ -29,9 +29,9 @@ const About=()=>{
        <br/>
 
 <div style={{display:"flex"}}>
-       <div className="midmain" style={{width:"200px",height:"200px",border:"1px solid black",display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
-         <div className="iconouter" style={{backgroundColor:"dodgerblue", borderRadius:"50%",width:"50px",height:"50px",display:"flex",alignItems:"center",justifyContent:"center"}}>
-            <div className="iconinner"style={{borderRadius:"50%",width:"40px",height:"40px",fontSize:"30px",display:"flex",alignItems:"center",justifyContent:"center"}}>
+       <div className="midmain" >
+         <div className="iconouter" >
+            <div className="iconinner">
             <FaStore />
 
             </div>
@@ -43,9 +43,9 @@ const About=()=>{
          
        </div>
        {/* ................. */}
-       <div className="midmain" style={{width:"200px",height:"200px",border:"1px solid black",display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
-         <div className="iconouter" style={{backgroundColor:"dodgerblue", borderRadius:"50%",width:"50px",height:"50px",display:"flex",alignItems:"center",justifyContent:"center"}}>
-            <div className="iconinner"style={{borderRadius:"50%",width:"40px",height:"40px",fontSize:"30px",display:"flex",alignItems:"center",justifyContent:"center"}}>
+       <div className="midmain" >
+         <div className="iconouter" >
+            <div className="iconinner">
             <BiSolidDollarCircle />
 
             </div>
@@ -56,9 +56,9 @@ const About=()=>{
 
          
        </div>
-       <div className="midmain" style={{width:"200px",height:"200px",border:"1px solid black",display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
-         <div className="iconouter" style={{backgroundColor:"dodgerblue", borderRadius:"50%",width:"50px",height:"50px",display:"flex",alignItems:"center",justifyContent:"center"}}>
-            <div className="iconinner"style={{borderRadius:"50%",width:"40px",height:"40px",fontSize:"30px",display:"flex",alignItems:"center",justifyContent:"center"}}>
+       <div className="midmain" >
+         <div className="iconouter" >
+            <div className="iconinner">
             <HiMiniShoppingBag />
 
             </div>
@@ -69,9 +69,9 @@ const About=()=>{
 
          
        </div>
-       <div className="midmain" style={{width:"200px",height:"200px",border:"1px solid black",display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
-         <div className="iconouter" style={{backgroundColor:"dodgerblue", borderRadius:"50%",width:"50px",height:"50px",display:"flex",alignItems:"center",justifyContent:"center"}}>
-            <div className="iconinner"style={{borderRadius:"50%",width:"40px",height:"40px",fontSize:"30px",display:"flex",alignItems:"center",justifyContent:"center"}}>
+       <div className="midmain" >
+         <div className="iconouter" >
+            <div className="iconinner">
             <GiTakeMyMoney />
 
             </div>
@@ -85,8 +85,8 @@ const About=()=>{
        </div>
        {/* .............................. */}
        <div className="picmain"style={{display:"flex",alignItems:"center",justifyContent:"center",padding:"50px"}}>
-         <div style={{}}>
-            <img src="images/p1.jpg" alt="" style={{height:"200px",width:"200px"}}/>
+         <div className="cardcont">
+            <img src="images/p1.jpg" alt="" style={{height:"200px",width:"200px",borderRadius:"15px"}}/>
             <h2>Tom Cruise</h2>
             <h5>Founder & Chairman</h5>
             <center><div className="innericon"style={{display:"flex"}}>
@@ -96,8 +96,8 @@ const About=()=>{
             </div></center>
          </div>
 
-         <div style={{marginLeft:"100px"}}>
-            <img src="images/p2.jpg" alt=""style={{height:"200px",width:"200px"}} />
+         <div className="cardcont" style={{marginLeft:"100px"}}>
+            <img src="images/p2.jpg" alt=""style={{height:"200px",width:"200px",borderRadius:"15px"}} />
             <h2>Emma Watson</h2>
             <h5>Managing Director</h5>
             <div className="innericon"style={{display:"flex"}}>
@@ -107,8 +107,8 @@ const About=()=>{
             </div>
          </div>
 
-         <div style={{marginLeft:"100px"}}>
-            <img src="images/p3.jpg" alt=""style={{height:"200px",width:"200px"}} />
+         <div className="cardcont" style={{marginLeft:"100px"}}>
+            <img src="images/p3.jpg" alt=""style={{height:"200px",width:"200px",borderRadius:"15px"}} />
             <h2>Will Smith</h2>
             <h5>Product Designer</h5>
             <div className="innericon"style={{display:"flex"}}>

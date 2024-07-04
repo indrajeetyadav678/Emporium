@@ -3,8 +3,10 @@ import { useState } from 'react'
 import Footer from './Component/Footer'
 import Header from './Component/Header'
 
-function App() {
-  return (
+
+
+const App=()=>{
+  return(
     <>
       {/* <About/> */}
      {/* <Footer/> */}
@@ -15,4 +17,7 @@ function App() {
   )
 }
 
-export default App
+    </>
+  );
+}
+export default App;
