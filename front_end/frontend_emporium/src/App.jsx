@@ -7,6 +7,8 @@ import About from './about'
 import Error from './Error'
 import Home from "./Home";
 import Layout from "./Layout";
+import Contact from "./Contact";
+import Signup from "./Signup";
 
 
 
@@ -19,8 +21,10 @@ const App=()=>{
           <Route index element={<Home/>} />
            
             <Route path="Home" element={<Home/>} />
+            {/* <Route path="Contact" element={<Contact/>} /> */}
             <Route path="about" element={<About/>} />
-            <Route path="Error" element={<Error/>} />
+            {/* <Route path="Signup" element={<Signup/>} /> */}
+           
           </Route>
         </Routes>
       </BrowserRouter>
