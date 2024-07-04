@@ -5,3 +5,259 @@
 
 .midmain:hover{background-color: #DB4444;}
 .midmain{margin-left: 80px;}
+/* Footer  CSS */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    height: 440px;
+    background-color: black;
+    display: block;
+
+}
+.sub-container
+{
+    width:1170px;
+    height: 236px;
+    margin-left: 165px;
+    display: flex;
+    gap: 30px;
+
+}
+.sub-content1
+{
+    width: 217px;
+    height: 188px;
+    margin-top: 80px;
+
+    
+}
+.sub-content1 ul li{
+    list-style: none;
+    margin-top: 25px;
+    color: white;
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img
+{
+    width: 200px;
+    height: 48px;
+}
+.sub-content2
+{
+    width: 217px;
+    height: 188px;
+    margin-left: 30px;
+    margin-top: 80px;
+
+}
+.sub-content2 ul li{
+    list-style: none;
+    margin-top: 25px;
+    color: white;
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.sub-content3
+{
+    width: 217px;
+    height: 188px;
+    margin-top: 80px;
+
+}
+.sub-content3 ul li{
+    list-style: none;
+    margin-top: 25px;
+    color: white;
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.sub-content4
+{
+    width: 217px;
+    height: 188px;
+    margin-top: 80px;
+
+}
+.sub-content4 ul li{
+    list-style: none;
+    margin-top: 25px;
+    color: white;
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.sub-content5 img
+{
+    width: 198px;
+    height: 210px;
+    margin-top: 100px;
+}
+.footer-end
+{
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid rgb(62, 62, 62);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 164px;
+    padding-left: 600px;
+    padding-top: 8px;
+    color: rgb(62, 62, 62);
+}
+
+/* Header.css */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head1
+{
+    width: 100%;
+    height: 48px;
+    background-color: black;
+     display: flex;
+     margin: 0;
+    padding: 0;
+
+}
+.head1-sub
+{
+    display: flex;
+}
+ 
+.head1-content
+{
+    height: 18px;
+    font-size: 14px;
+    color: #FAFAFA;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+    margin-left: 450px;
+    margin-top: 10px;
+
+}
+.head1-content2
+{
+    height: 18px;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    line-height: 24px;
+    margin-left:12px;
+    margin-top: 10px;
+}
+.head1-content3 select
+{
+    margin-left: 270px;
+    margin-top: 13px;
+    background: black;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 600;
+    border: black;
+
+}
+.nav-container
+{
+    width: 100%;
+    height: 55px;
+    border-bottom:1px solid lightgray;
+}
+.navBar{
+    width: 1300px;
+    height: 38px;
+    display: flex;
+    margin-left: 103px;
+    margin-top: 20px;
+}
+.title
+{
+    font-size: 25px;
+    display: flex;
+}
+.menu-bar ul
+{
+text-decoration: none;
+display: flex;
+list-style: none;
+margin-left: 165px;
+margin-top: 10px;
+gap: 50px;
+}
+.menu-bar ul li{
+    text-decoration: none;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu-bar ul li:hover
+{
+    border-bottom: 2px solid black;
+}
+.search-bar 
+{
+    height: 30px;
+    width: 200px;
+    margin-top: 9px;
+    background-color: #eff3f5;
+    margin-left: 100px;
+    display: flex;
+    border-radius:4px;
+
+
+
+}
+.search-bar input{
+     background: none;
+     border: none;
+     align-items: center;
+     outline: none;
+}
+.search-bar input::placeholder{
+    text-align: center;
+    font-size: 11px;
+}
+
+.search-icon
+{
+    margin-left: 5px;
+    margin-top: 3px;
+    font-size: 20px;
+}
+.icns
+{
+    width: 20px;
+    margin-top: 12px;
+    margin-left: 50px;
+}
+.icns ul 
+{
+list-style: none;
+display: flex;
+gap: 25px;
+
+}
+.icns ul li{
+    font-size: 22px;
+}
+
+
+
+
+  
