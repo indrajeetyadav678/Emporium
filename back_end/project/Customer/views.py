@@ -6,5 +6,5 @@ from .serializers import CustomerDataSerializer
 # Create your views here.
 
 class Customerview(viewsets.ModelViewSet):
-    queryset = Customer
+    queryset = Customer.objects.all()
     serializer_class = CustomerDataSerializer

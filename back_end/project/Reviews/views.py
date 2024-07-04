@@ -6,5 +6,5 @@ from .serializers import ReviewsDataSerializer
 # Create your views here.
 
 class Reviewview(viewsets.ModelViewSet):
-    queryset = Reviews
+    queryset = Reviews.objects.all()
     serializer_class = ReviewsDataSerializer

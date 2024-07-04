@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import *
+from .models import Adminmodel
 
-class AdminDataSerializer(serializers.ModelSerializer):
+class AdminSerializer(serializers.ModelSerializer):
     class Meta:
-        model = AdminData
+        model = Adminmodel
         fields = '__all__'

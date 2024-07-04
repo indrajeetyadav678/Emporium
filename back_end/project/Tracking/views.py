@@ -6,5 +6,5 @@ from .serializers import TrackingDataSerializer
 # Create your views here.
 
 class Trackingview(viewsets.ModelViewSet):
-    queryset = Tracking
+    queryset = Tracking.objects.all()
     serializer_class = TrackingDataSerializer

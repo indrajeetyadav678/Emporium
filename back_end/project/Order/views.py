@@ -6,5 +6,5 @@ from .serializers import OrderDataSerializer
 # Create your views here.
 
 class Orderview(viewsets.ModelViewSet):
-    queryset = Order
+    queryset = Order.objects.all()
     serializer_class = OrderDataSerializer

@@ -6,5 +6,5 @@ from .serializers import PaymentDataSerializer
 # Create your views here.
 
 class Paymentview(viewsets.ModelViewSet):
-    queryset = Payment
+    queryset = Payment.objects.all()
     serializer_class = PaymentDataSerializer
