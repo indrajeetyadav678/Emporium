@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import *
+from .models import DeliveryTrackingmodel
 
-class TrackingDataSerializer(serializers.ModelSerializer):
+class DeliveryTrackingSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Tracking
+        model = DeliveryTrackingmodel
         fields = '__all__'

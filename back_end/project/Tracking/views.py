@@ -1,10 +1,10 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .models import Tracking
-from .serializers import TrackingDataSerializer
+from .models import DeliveryTrackingmodel
+from .serializers import DeliveryTrackingSerializer
 
 # Create your views here.
 
-class Trackingview(viewsets.ModelViewSet):
-    queryset = Tracking.objects.all()
-    serializer_class = TrackingDataSerializer
+class DeliveryTrackingview(viewsets.ModelViewSet):
+    queryset = DeliveryTrackingmodel.objects.all()
+    serializer_class = DeliveryTrackingSerializer

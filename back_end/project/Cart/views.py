@@ -1,10 +1,10 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .models import Cart
-from .serializers import CartDataSerializer
+from .models import Cartmodel
+from .serializers import CartSerializer
 
 # Create your views here.
 
 class Cartview(viewsets.ModelViewSet):
-    queryset = Cart.objects.all()
-    serializer_class = CartDataSerializer
+    queryset = Cartmodel.objects.all()
+    serializer_class = CartSerializer

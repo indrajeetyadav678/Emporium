@@ -1,10 +1,12 @@
 from django.db import models
-from Customer.models import Customer
+from customer_user.models import Customermodel
 
 # Create your models here.
-class Payment(models.Model):
+class Paymentmodel(models.Model):
+    payment_id = models.CharField(max_length=20, unique=True)
     payment_date = models.DateTimeField()
-    payment_id = models.CharField(max_length=20,unique=True)
     payment_amount = models.IntegerField()
-    Customer_id = models.ForeignKey(Customer , on_delete=models.PROTECT,null=True)
+    customer_id = models.ForeignKey(Customermodel , on_delete=models.PROTECT)
 
+    def __str__(self):
+        return self.customer_id
