@@ -1,4 +1,4 @@
-import "../reg log comp/SignUp.css";
+import "./SignUp.css";
 import { FcGoogle } from "react-icons/fc";
 
 function SignUp ()
