@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.addcart-container
+{
+    
+    width:100%;
+    height:700px;
+    align-items: center;
+}
+.cart-frame
+{
+    background-color: whitesmoke;
+    width: 900px;
+    height: 650px;
+    margin: auto;
+    padding-left: 40px;
+    margin-top: 30px;
+    padding-top:30px ;
+}
+p
+{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+font-size: 14px;
+text-decoration: none;
+}
+.first-row
+{
+    width: 800px;
+    height: 30px;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(241, 239, 239);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 20px;
+}
+.Second-row
+{
+    width: 800px;
+    height: 30px;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(241, 239, 239);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 20px;
+}
+.Third-row
+{
+    width: 800px;
+    height: 30px;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(241, 239, 239);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 20px;
+}
+.Forth-row
+{
+    width: 800px;
+    height: 30px;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(241, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+}
+.Five-row
+{
+    width: 800px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(241, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+}
+.cart-total
+{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid lightgray;
+    padding-left: 30px;
+}
+.btn-1
+{
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+}
+.btn-2
+{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(198, 18, 18);
+    margin-left: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.row-1
+{
+    width: 180px;
+    height: 30px;
+    display: flex;
+    border: none;
+    border-bottom:1px solid gray ;
+    justify-content: space-between;
+    margin-top: 10px;
+}
