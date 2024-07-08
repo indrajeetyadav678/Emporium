@@ -1,5 +1,8 @@
 import "./SignUp.css";
 import { FcGoogle } from "react-icons/fc";
+import { Link } from "react-router-dom";
+
+
 
 function SignUp ()
 {
@@ -20,9 +23,9 @@ function SignUp ()
              <div className="Ggl-btn">
               <div className="ggl-icn"><FcGoogle /></div>
               <div>
-              <input className=" Ggl-input" placeholder="Sign in with google"/></div>
+              <input className="Ggl-input" placeholder="Sign in with google"/></div>
               </div>
-              <p>Already have account? Log in</p>
+              <p>Already have account? <Link to="/signin">Log in</Link></p>
           </div>
       </div>
     

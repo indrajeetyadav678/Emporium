@@ -1,7 +1,7 @@
-import "../reg log comp/SignUp.css";
+import './SignUp.css'
 
 
-function SignIn ()
+const SignIn= ()=>
 {
   return(
     <>
