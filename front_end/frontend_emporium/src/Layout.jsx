@@ -4,10 +4,14 @@ import { IoHeartOutline } from "react-icons/io5";
 import { BsCart3 } from "react-icons/bs";
 import { FiUser } from "react-icons/fi";
 import Footer from "./component_customer_011/Footer";
-
+import { useNavigate } from "react-router-dom";
 
 
 const Layout=()=>{
+    const Navigate = useNavigate();
+        const Incart = () => {
+            Navigate("/cart")
+        }
     return(
       <>
    <header>
@@ -59,7 +63,7 @@ const Layout=()=>{
                         <div className="icns">
                             <ul>
                                 <li><IoHeartOutline /></li>
-                                <li><BsCart3 /></li>
+                                <li><a onClick={()=>{Incart()}}><BsCart3 /></a></li>
                                 <li><FiUser /></li>
 
                             </ul>
