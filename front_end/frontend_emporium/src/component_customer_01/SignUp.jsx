@@ -9,7 +9,7 @@ function SignUp() {
     <>
       <div class="register">
         <div className="reg_img">
-          <img className="regi_img" src="src/images/reg-img.jpg" alt="img" />
+          <img className="regi_img" src="src/images/regimg.jpg" alt="img" />
         </div>
         <div class="reg_content">
           <div className="content">

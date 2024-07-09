@@ -1,8 +1,5 @@
-<<<<<<<<< Temporary merge branch 1
 import './SignUp.css'
-=========
-import "./SignUp.css";
->>>>>>>>> Temporary merge branch 2
+
 
 
 const SignIn= ()=>
@@ -12,7 +9,7 @@ const SignIn= ()=>
       <div class="register">
         
       <div className="reg_img">
-            <img className="regi_img" src="src/images/reg-img.jpg" alt="img" />
+            <img className="regi_img" src="src/images/regimg.jpg" alt="img" />
           </div>
           <div className="reg_content">
             <div className="Login_content">

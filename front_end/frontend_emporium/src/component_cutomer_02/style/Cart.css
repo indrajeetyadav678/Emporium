@@ -11,7 +11,7 @@
 }
 
 .cart_frame {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     width: 900px;
     height: 650px;
     margin: auto;
@@ -26,25 +26,31 @@ p {
     font-size: 14px;
     text-decoration: none;
 }
-
+.tv_img
+{
+   width: 40px;
+   height: 40px; 
+   margin-left: 18px;
+}
 .first-row, .Second-row, .Third-row, .Forth-row, .Five-row {
-    width: 800px;
+    width: 700px;
     height: 50px;
     background-color: white;
     display: flex;
+    border: 1px solid whitesmoke;
     justify-content: space-evenly;
     margin-top: 10px;
 }
 
 .Forth-row {
     justify-content: space-between;
-    padding: 10px;
+    padding-left: 50px;
 }
 
 .Five-row {
     height: 300px;
     padding-top: 20px;
-    padding-left: 5px;
+    /* padding-left: 5px; */
 }
 
 .cart-total {
@@ -145,5 +151,30 @@ p {
 
     p {
         font-size: 12px;
+    }
+}
+
+.inc_dec_btn
+{
+    width: 50px;
+    height: 25px;
+    margin-top: 15px;
+    /* margin-left: 25px; */
+}
+/* Media query for screen width less than 600px */
+@media (max-width: 600px) {
+    .inc_dec_btn {
+        width: 40px;
+        height: 20px;
+        margin-top: 10px;
+    }
+}
+
+/* Media query for screen width between 600px and 1200px */
+@media (min-width: 600px) and (max-width: 1200px) {
+    .inc_dec_btn {
+        width: 45px;
+        height: 22px;
+        margin-top: 12px;
     }
 }
