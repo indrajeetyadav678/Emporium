@@ -22,7 +22,7 @@ const App=()=>{
             <Route path="about" element={<About/>} />
 
             <Route path="sign_up" element={<SignUp/>} />
-            {/* <Route path="sign_in" element={<SignIn/>} /> */}
+            <Route path="signin" element={<SignIn/>} />
 
             <Route path="cart" element={<Cart/>} />
             <Route path="checkout" element={<Checkout/>} />
