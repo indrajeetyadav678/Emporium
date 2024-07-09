@@ -23,7 +23,7 @@ function SignUp ()
               <div>
               <input className=" Ggl-input" placeholder="Sign in with google"/></div>
               </div>
-              <p>Already have account? Log in</p>
+              <p>Already have account? <a href="sign_in">Log in</a></p>
               </div>
           </div>
       </div>

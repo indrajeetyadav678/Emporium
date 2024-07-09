@@ -1,11 +1,11 @@
-import "./Cart.css";
+import "./style/Cart.css";
 
 
-function Cart() {
+const Cart=()=> {
     return (
       <>
-      <div className="addcart-container">
-      <div className="cart-frame">
+      <div className="addcart_container">
+      <div className="cart_frame">
         <div className="first-row">
             <p>Product</p>
             <p>Price</p>
@@ -47,7 +47,7 @@ function Cart() {
                 <p>Total</p>
                 <p>$1150</p>
               </div>
-              <button className="btn-2" style={{marginTop:"10px", alignItems:"center", marginLeft:"25px"}}> Checkout</button>
+              <button className="btn-2" style={{marginTop:"15px", alignItems:"center", marginLeft:"50px"}}> Checkout</button>
 
           </div>
         </div>
