@@ -1,4 +1,8 @@
+<<<<<<<<< Temporary merge branch 1
+import './SignUp.css'
+=========
 import "./SignUp.css";
+>>>>>>>>> Temporary merge branch 2
 
 
 const SignIn= ()=>

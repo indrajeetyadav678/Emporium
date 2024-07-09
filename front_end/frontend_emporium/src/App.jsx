@@ -6,7 +6,6 @@ import Layout from "./Layout";
 import SignUp from "./component_customer_01/SignUp";
 import SignIn from "./component_customer_01/SignIn";
 
-
 import Checkout from "./checkout";
 import Cart from "./component_cutomer_02/Cart";
 
@@ -25,7 +24,7 @@ const App=()=>{
 
             <Route path="sign_up" element={<SignUp/>} />
 
-            <Route path="sign_in" element={<SignIn/>} />
+            <Route path="signin" element={<SignIn/>} />
 
 
 
