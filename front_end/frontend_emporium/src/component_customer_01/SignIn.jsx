@@ -1,7 +1,7 @@
 import "./SignUp.css";
 
 
-function SignIn ()
+const SignIn= ()=>
 {
   return(
     <>
