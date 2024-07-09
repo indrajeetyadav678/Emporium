@@ -7,8 +7,8 @@ function SignIn ()
     <>
       <div class="register">
         
-          <div class="reg-img">
-
+      <div className="reg_img">
+            <img className="regi_img" src="src/images/reg-img.jpg" alt="img" />
           </div>
           <div class="reg-content" style={{paddingTop:"200px", paddingLeft:"150px", height:"400px"}}>
               <h2>Log in to Exclusive</h2>

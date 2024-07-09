@@ -6,10 +6,11 @@ function SignUp ()
   return(
     <>
       <div class="register">
-          <div class="reg-img">
-
+          <div className="reg_img">
+            <img className="regi_img" src="src/images/reg-img.jpg" alt="img" />
           </div>
-          <div class="reg-content">
+          <div class="reg_content">
+            <div className="content">
               <h2>Create an account</h2>
               <h6>Enter your Details Below</h6><br/><br/>
               <input  className="input-cont" type="text" placeholder="Name"/><br/><br/>
@@ -23,6 +24,7 @@ function SignUp ()
               <input className=" Ggl-input" placeholder="Sign in with google"/></div>
               </div>
               <p>Already have account? Log in</p>
+              </div>
           </div>
       </div>
     
