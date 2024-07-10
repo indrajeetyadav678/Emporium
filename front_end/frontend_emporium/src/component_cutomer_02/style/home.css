@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home_container
+{
+    width: 100%;
+    height: 1200px;
+    background-color: aquamarine;
+}
+.banner_slide
+{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+.slider
+{
+    width: 100%;
+    height: 80%;
+    background-image: url(../../images/10026.jpg);
+    background-size: contain;
+    animation-duration: 2s;
+    animation: slide 20s infinite ;
+    margin-top: 5px;
+    animation-direction: alternate-reverse;
+   
+}
+@keyframes slide 
+{
+    0% 
+    {background-image: url(../../images/bs1.jpg);}
+    25% 
+    {background-image: url(../../images/bs2.jpg);}
+    50%
+    {background-image: url(../../images/bs3.jpg);}
+    75% 
+    {background-image: url(../../images/bs4.jpg);}
+    100% 
+    {background-image: url(../../images/bs5.jpg);}
+    
+}
+#offer-prize
+{
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#box1
+{
+    width: 200px;
+    height: 200px;
+    background-image: url(../image/toys.jpg);
+    /* margin-top: 5px;
+    margin-left: 80px; */
+    border: 5px solid rgb(53, 53, 63);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 10%;
+    float: left;
+    
+}
+#box1:hover
+{
+   
+    transform: scale(1.05);
+    
+}
+#box2
+{
+    width: 200px;
+    height: 200px;
+    background-image: url(../image/tdk.jpg);
+    margin-top: 5px;
+    border: 5px solid rgb(53, 53, 63);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 10%;
+    float: left;
+    /* margin-left: 65px;
+    margin-right: 65px; */
+
+}
+#box2:hover
+{
+   
+    transform: scale(1.05);
+    
+}
+#box3
+{
+    width: 200px;
+    height: 200px;
+    background-image: url(../image/tdm.jpg);
+    margin-top: 5px;
+    border: 5px solid rgb(53, 53, 63);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 10%;
+    float: left;
+    /* margin-right: 65px; */
+}
+#box3:hover
+{
+   
+    transform: scale(1.05);
+    
+}
+#box4
+{
+    width: 200px;
+    height: 200px;
+    background-image: url(../image/tdw.jpg);
+    margin-top: 5px;
+    border: 5px solid rgb(53, 53, 63);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 10%;
+    float: left;
+    /* margin-right: 65px; */
+   
+}
+#box4:hover
+{
+   
+    transform: scale(1.05);
+    
+}
+#box5
+{
+    width: 200px;
+    height: 200px;
+    background-image: url(../image/tdw.jpg);
+    margin-top: 5px;
+    color: white;
+    border: 5px solid rgb(53, 53, 63);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 10%;
+    float: left;
+    
+   
+}
+#box5:hover
+{
+   
+    transform: scale(1.05);
+    
+}
+
+h6
+{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    background-color: rgb(40, 40, 45);
+    margin-top: 160px;
+}
+h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+}
