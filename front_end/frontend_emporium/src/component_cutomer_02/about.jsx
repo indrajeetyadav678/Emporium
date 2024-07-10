@@ -28,7 +28,7 @@ const About=()=>{
        <br/>
        <br/>
 
-<div style={{display:"flex"}}>
+<div  className="card">
        <div className="midmain" >
          <div className="iconouter" >
             <div className="iconinner">
@@ -37,8 +37,8 @@ const About=()=>{
             </div>
             
          </div>
-         <h2 style={{marginBottom:"-10px"}}>10.5k</h2>
-         <h5>Sellers active our site</h5>
+         <h2 >10.5k</h2>
+         <h5>Sellers active in our site</h5>
 
          
        </div>
@@ -51,7 +51,7 @@ const About=()=>{
             </div>
             
          </div>
-         <h2 style={{marginBottom:"-10px"}}>10.5k</h2>
+         <h2 >10.5k</h2>
          <h5>Monthly Products Sale</h5>
 
          
@@ -64,7 +64,7 @@ const About=()=>{
             </div>
             
          </div>
-         <h2 style={{marginBottom:"-10px"}}>10.5k</h2>
+         <h2 >10.5k</h2>
          <h5>Customer active in our site</h5>
 
          
@@ -77,16 +77,16 @@ const About=()=>{
             </div>
             
          </div>
-         <h2 style={{marginBottom:"-10px"}}>10.5k</h2>
+         <h2 >10.5k</h2>
          <h5>Annual gross sale in our site</h5>
 
          
        </div>
        </div>
        {/* .............................. */}
-       <div className="picmain"style={{display:"flex",alignItems:"center",justifyContent:"center",padding:"50px"}}>
+       <div className="picmain">
          <div className="cardcont">
-            <img src="images/p1.jpg" alt="" style={{height:"200px",width:"200px",borderRadius:"15px"}}/>
+            <img src="images/p1.jpg" alt=""/>
             <h2>Tom Cruise</h2>
             <h5>Founder & Chairman</h5>
             <center><div className="innericon"style={{display:"flex"}}>
@@ -96,8 +96,8 @@ const About=()=>{
             </div></center>
          </div>
 
-         <div className="cardcont" style={{marginLeft:"100px"}}>
-            <img src="images/p2.jpg" alt=""style={{height:"200px",width:"200px",borderRadius:"15px"}} />
+         <div className="cardcont a" >
+            <img src="images/p2.jpg" alt="" />
             <h2>Emma Watson</h2>
             <h5>Managing Director</h5>
             <div className="innericon"style={{display:"flex"}}>
@@ -107,8 +107,8 @@ const About=()=>{
             </div>
          </div>
 
-         <div className="cardcont" style={{marginLeft:"100px"}}>
-            <img src="images/p3.jpg" alt=""style={{height:"200px",width:"200px",borderRadius:"15px"}} />
+         <div className="cardcont a" >
+            <img src="images/p3.jpg" alt="" />
             <h2>Will Smith</h2>
             <h5>Product Designer</h5>
             <div className="innericon"style={{display:"flex"}}>
@@ -119,20 +119,12 @@ const About=()=>{
          </div>
        </div>
        {/* ......................................... */}
-       <div className="lastmain" style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-         <div style={{display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
+       <div className="lastmain" >
+         <div className="lastone">
 
 
-               <div style={{borderRadius:"50%",backgroundColor:"dodgerblue",height:"50px",width:"50px",
-            display:"flex",alignItems:"center",justifyContent:"center"
-         }}>
-               <div style={{borderRadius:"50%",backgroundColor:"white",height:"40px",width:"40px"
-                  ,display:"flex",alignItems:"center",justifyContent:"center"
-               }}>
-                  <TbTruckDelivery />
-               
-
-               </div>
+               <div className="lastouter">
+               <div className="lastinner" > <TbTruckDelivery /> </div>
             </div>
 
 
@@ -140,45 +132,33 @@ const About=()=>{
             <p>Free delivery for all orders over $140</p>
          </div>
 
-         <div style={{display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column",marginLeft:"100px"
-
-         }}>
+         <div className="lastone">
 
 
 
-            <div style={{borderRadius:"50%",backgroundColor:"dodgerblue",height:"50px",width:"50px",
-            display:"flex",alignItems:"center",justifyContent:"center"
-         }}>
-               <div style={{borderRadius:"50%",backgroundColor:"white",height:"40px",width:"40px"
-                  ,display:"flex",alignItems:"center",justifyContent:"center"
-               }}>
-                  <RiCustomerServiceFill />
-               
-
-               </div>
+            <div className="lastouter">
+               <div className="lastinner"><RiCustomerServiceFill /> </div>
             </div>
 
             <h5>24/7 CUSTOMER SERVICE</h5>
             <p>Friendly 24/7 customer support</p>
          </div>
 
-         <div style={{display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column",marginLeft:"100px"}}>
+         <div className="lastone">
 
-         <div style={{borderRadius:"50%",backgroundColor:"dodgerblue",height:"50px",width:"50px",
-            display:"flex",alignItems:"center",justifyContent:"center"
-         }}>
-               <div style={{borderRadius:"50%",backgroundColor:"white",height:"40px",width:"40px"
-                  ,display:"flex",alignItems:"center",justifyContent:"center"
-               }}>
-               <VscWorkspaceTrusted  />
-
-               </div>
+         <div className="lastouter">
+               <div className="lastinner"><VscWorkspaceTrusted  /></div>
             </div>
             <h5>MONEY BACK GUARANTEE</h5>
             <p>We return money within 30 days</p>
          </div>
 
        </div>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
      
        </>
     )
