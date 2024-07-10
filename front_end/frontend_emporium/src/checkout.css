@@ -1,0 +1,211 @@
+.checkoutlayout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.billingside{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 40%;
+}
+.billingside input{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 450px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F5F5F5;
+}
+.totalside{
+    padding: 20px;
+    width: 40%;
+    align-items: start;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.subtotal, .total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.item-name {
+    flex: 1;
+}
+spam{
+    color: red;
+}
+label{
+    color: #9b9b9b;
+}
+.para input{
+    height: 15px;
+    width: 15px;
+}
+.Bank{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Bank span input{
+    height: 18px;
+    width: 18px;
+}
+.bnktxt{
+    flex: 1;
+}
+.cod{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cod span input{
+    height: 18px;
+    width: 18px;
+}
+.coupon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.coupon input {
+    width: 70%;
+    padding: 15px;
+
+}
+.coupon button {
+    padding: 15px;
+    background-color: #f04e45;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.order{
+    padding: 15px;
+    background-color: #f04e45;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 220px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .checkoutlayout {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .billingside, .totalside {
+        width: 70%;
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .billingside input {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .para input{
+        height: 15px;
+        width: 15px;
+    }
+
+    .item, .subtotal, .total, .Bank, .cod, .coupon {
+        /* flex-direction: column; */
+        align-items: start;
+    }
+  
+    .coupon{
+        justify-content: space-evenly;
+    }
+    .item, .coupon {
+        margin-bottom: 10px;
+    }
+
+    .item-name, .bnktxt {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .coupon input {
+        width: 50%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .coupon button {
+        width: 40%;
+        padding: 10px;
+    }
+
+    .order {
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .checkoutlayout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .checkoutlayout {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .billingside, .totalside {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .billingside input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .item, .subtotal, .total, .Bank, .cod, .coupon {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .item, .coupon {
+        margin-bottom: 10px;
+    }
+
+    .item-name, .bnktxt {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .coupon input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .coupon button {
+        width: 100%;
+    }
+
+    .order {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
