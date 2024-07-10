@@ -4,8 +4,14 @@ import { IoIosSearch } from "react-icons/io";
 import { IoHeartOutline } from "react-icons/io5";
 import { BsCart3 } from "react-icons/bs";
 import { FiUser } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 const Header=()=>
+
     {
+        const Navigate = useNavigate();
+        const Incart = () => {
+            Navigate("/cart")
+        }
         return(
             <>
             <header>
@@ -30,11 +36,6 @@ const Header=()=>
                             <option>Hindi</option>
                         </select>
                     </div>
-               
-                    
-                    
-                  
-
 
                 </div>
             </header>
@@ -62,13 +63,11 @@ const Header=()=>
                         <div className="icns">
                             <ul>
                                 <li><IoHeartOutline /></li>
-                                <li><BsCart3 /></li>
+                                <li><button onClick={()=>{Incart()}}>Cart</button></li>
                                 <li><FiUser /></li>
-
                             </ul>
                         </div>
-                        
-                        
+                                             
                     </nav>
                     </div>
             

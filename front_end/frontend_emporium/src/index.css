@@ -3,9 +3,14 @@
 
 
 /* Footer  CSS */
+:root{
+    background-color: #FAFAFA;
+    color: black;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
 
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
