@@ -34,7 +34,6 @@ const Home=()=>{
 
             {/* *********this is Best electronic  part****************** */}
 
-            <h1 className=".home_h1">Best of Electronics</h1>
             <div id="offer-prize">
                 <div id="box1">
                      <center>

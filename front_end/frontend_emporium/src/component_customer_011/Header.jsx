@@ -9,8 +9,7 @@ const Header=()=>
 
     {
         const Navigate = useNavigate();
-        const Incart = ()=> {
-            Navigate("/cart")
+
         }
         return(
             <>
