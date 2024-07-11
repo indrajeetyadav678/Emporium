@@ -1,6 +1,7 @@
 import './SignUp.css'
 
 
+
 const SignIn= ()=>
 {
   return(
@@ -8,7 +9,7 @@ const SignIn= ()=>
       <div class="register">
         
       <div className="reg_img">
-            <img className="regi_img" src="src/images/reg-img.jpg" alt="img" />
+            <img className="regi_img" src="src/images/regimg.jpg" alt="img" />
           </div>
           <div className="reg_content">
             <div className="Login_content">
