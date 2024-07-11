@@ -4,7 +4,11 @@ import { IoHeartOutline } from "react-icons/io5";
 import { BsCart3 } from "react-icons/bs";
 import { FiUser } from "react-icons/fi";
 
+<<<<<<< HEAD
 
+=======
+// import Footer from "./Component/Footer";
+>>>>>>> b81a5bede24e165fb2601bec963b678c90c0bf6c
 
 import Footer from "./component_customer_011/Footer";
 import { useNavigate } from "react-router-dom";
