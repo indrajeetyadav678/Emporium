@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from 'react'
-<<<<<<< HEAD
+
 
 
 
@@ -10,8 +10,7 @@ import { useState } from 'react'
 // import Signup from "./Signup";
 
 // import { useState } from 'react'
-=======
->>>>>>> b81a5bede24e165fb2601bec963b678c90c0bf6c
+
 import About from './component_cutomer_02/about';
 import Home from "./component_cutomer_02/Home";
 import Layout from "./Layout";
