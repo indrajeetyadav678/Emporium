@@ -7,21 +7,25 @@ const Cart=()=> {
       <div className="addcart_container">
       <div className="cart_frame">
         <div className="first-row">
-            <p>Product</p>
+            <p>Pro_Image</p>
+            <p>Product_Name</p>
             <p>Price</p>
             <p>Quantity</p>
             <p>Subtotal</p>
         </div>
         <div className="Second-row">
+          <img  className="tv_img" src="src/images/tv.jpeg" alt="tv_img"/>
             <p>LCD Monitor</p>
             <p>$650</p>
-            <button>01</button>
+            <button className="inc_dec_btn">+ 01 -</button>
             <p>$650</p>
         </div>
         <div className="Third-row">
+        <img  className="tv_img" src="src/images/gmpd.jpeg" alt="tv_img"/>
+
             <p>HI Gamepad</p>
             <p>$550</p>
-            <button>02</button>
+            <button className="inc_dec_btn">+ 02 -</button>
             <p>$110</p>
         </div>
         <div className="Forth-row">

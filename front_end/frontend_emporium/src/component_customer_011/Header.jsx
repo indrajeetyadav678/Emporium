@@ -10,7 +10,7 @@ const Header=()=>
     {
         const Navigate = useNavigate();
         const Incart = () => {
-            Navigate("/cart")
+            Navigate("/component_customer_02/Cart")
         }
         return(
             <>
