@@ -5,21 +5,55 @@
 .home_container
 {
     width: 100%;
-    height: 1200px;
-    background-color: aquamarine;
+    height: 100%;
+    background-color: whites;
+}
+@media (max-width: 768px) {
+    .home_container {
+        height: 800px; 
+        background-color: lightgrey; 
+    }
+}
+
+@media (max-width: 480px) {
+    .home_container {
+        height: 600px; 
+        background-color: grey; 
+    }
 }
 .banner_slide
 {
     width: 100%;
-    height: 300px;
+    height: 400px;
     margin: auto;
+    margin-bottom: 0;
+}
+/* Media query for smaller desktops */
+@media (max-width: 1439px) {
+    .banner_slide {
+        height: 600px;
+    }
+}
+
+/* Media query for tablets */
+@media (max-width: 1023px) {
+    .banner_slide {
+        height: 500px;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .banner_slide {
+        height: 400px;
+    }
 }
 .slider
 {
     width: 100%;
     height: 80%;
-    background-image: url(../../images/10026.jpg);
-    background-size: contain;
+    background-image: url(../../images/ss1.webp);
+    background-size: cover;
     animation-duration: 2s;
     animation: slide 20s infinite ;
     margin-top: 5px;
@@ -29,33 +63,60 @@
 @keyframes slide 
 {
     0% 
-    {background-image: url(../../images/bs1.jpg);}
+    {background-image: url(../../images/ss2.webp);}
     25% 
-    {background-image: url(../../images/bs2.jpg);}
+    {background-image: url(../../images/ss3.webp);}
     50%
-    {background-image: url(../../images/bs3.jpg);}
+    {background-image: url(../../images/ss4.webp);}
     75% 
-    {background-image: url(../../images/bs4.jpg);}
+    {background-image: url(../../images/ss5.webp);}
     100% 
-    {background-image: url(../../images/bs5.jpg);}
+    {background-image: url(../../images/ss6.webp);}
     
+}
+@media (max-width: 767px) {
+    .slider {
+        height: 60%; 
+        animation-duration: 3s;  
+        margin-top: 10px; 
+    }
+}
+
+/* Tablet devices (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .slider {
+        height: 70%; 
+        animation-duration: 2.5s; 
+        margin-top: 8px; 
+    }
+}
+
+/* Laptop devices (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .slider {
+        height: 80%; 
+        animation-duration: 2s; 
+        margin-top: 5px; 
+    }
 }
 #offer-prize
 {
     width: 100%;
-    height: 250px;
-    margin-top: 20px;
+    height: 280px;
+    /* margin-top: 5px; */
     display: flex;
     justify-content: space-evenly;
+    background-color: white;
 }
 #box1
 {
-    width: 200px;
-    height: 200px;
-    background-image: url(../image/toys.jpg);
+    width: 250px;
+    height: 250px;
+    background-image: url(../../images/h1.webp);
+    background-size: cover;
     /* margin-top: 5px;
     margin-left: 80px; */
-    border: 5px solid rgb(53, 53, 63);
+    border: 5px solid black;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     border-radius: 10%;
     float: left;
@@ -69,11 +130,12 @@
 }
 #box2
 {
-    width: 200px;
-    height: 200px;
-    background-image: url(../image/tdk.jpg);
+    width: 250px;
+    height: 250px;
+    background-image: url(../../images/lap1.webp);
+    background-size: cover;
     margin-top: 5px;
-    border: 5px solid rgb(53, 53, 63);
+    border: 5px solid black;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     border-radius: 10%;
     float: left;
@@ -89,11 +151,12 @@
 }
 #box3
 {
-    width: 200px;
-    height: 200px;
-    background-image: url(../image/tdm.jpg);
+    width: 250px;
+    height: 250px;
+    background-image: url(../../images/h2.webp);
+    background-size: cover;
     margin-top: 5px;
-    border: 5px solid rgb(53, 53, 63);
+    border: 5px solid black;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     border-radius: 10%;
     float: left;
@@ -107,11 +170,12 @@
 }
 #box4
 {
-    width: 200px;
-    height: 200px;
-    background-image: url(../image/tdw.jpg);
+    width: 250px;
+    height: 250px;
+    background-image: url(../../images/tap1.webp);
+    background-size: cover;
     margin-top: 5px;
-    border: 5px solid rgb(53, 53, 63);
+    border: 5px solid black;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     border-radius: 10%;
     float: left;
@@ -126,12 +190,13 @@
 }
 #box5
 {
-    width: 200px;
-    height: 200px;
-    background-image: url(../image/tdw.jpg);
+    width: 250px;
+    height: 250px;
+    background-image: url(../../images/wash1.webp);
+    background-size: cover;
     margin-top: 5px;
     color: white;
-    border: 5px solid rgb(53, 53, 63);
+    border: 5px solid black;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     border-radius: 10%;
     float: left;
@@ -151,8 +216,8 @@ h6
     padding: 10px;
     color: white;
     margin: 10px;
-    background-color: rgb(40, 40, 45);
-    margin-top: 160px;
+    background-color: black;
+    /* margin-top: 160px; */
 }
 h1
 {
@@ -161,5 +226,98 @@ h1
     color: white;
     font-style: italic;
     text-align: center;
+    /* margin-top: 10px; */
+}
+.small_banner
+{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    margin: auto;
     margin-top: 10px;
+    /* background-color: aquamarine; */
+    
+}
+.leatest_pro_1
+{
+    width: 48%;
+    height: 360px;
+    background-image: url(../../images/bb2.webp);
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.leatest_pro_1:hover
+{
+    transform: scale(1.02);
+}
+.leatest_pro_2
+{
+    width: 48%;
+    height: 360px;
+    background-image: url(../../images/bb3.webp);
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.leatest_pro_2:hover
+{
+    transform: scale(1.02);
+}
+.deals
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.deals_div_1
+{
+    width: 280px;
+    height: 380px;
+    background-image: url(../../images/d1.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+.deals_div_1:hover
+{
+    transform: scale(1.02);
+}
+.deals_div_2
+{
+    width: 280px;
+    height: 380px;
+    background-image: url(../../images/d2.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+.deals_div_2:hover
+{
+    transform: scale(1.02);
+}
+.deals_div_3
+{
+    width: 280px;
+    height: 380px;
+    background-image: url(../../images/d3.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+.deals_div_3:hover
+{
+    transform: scale(1.02);
+}
+.deals_div_4
+{
+    width: 280px;
+    height: 380px;
+    background-image: url(../../images/d4.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+.deals_div_3:hover
+{
+    transform: scale(1.02);
 }
