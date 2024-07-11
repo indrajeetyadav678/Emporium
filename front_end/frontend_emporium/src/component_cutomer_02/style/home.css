@@ -86,7 +86,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .slider {
         height: 70%; 
-        animation-duration: 2.5s; 
+        animation-duration: 3s; 
         margin-top: 8px; 
     }
 }
@@ -95,9 +95,75 @@
 @media (min-width: 1025px) and (max-width: 1440px) {
     .slider {
         height: 80%; 
-        animation-duration: 2s; 
+        animation-duration: 3s; 
         margin-top: 5px; 
     }
+}
+.Exclusively
+{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: rgb(75, 70, 70);
+    padding-top: 10px;
+    margin-bottom: 10px;
+
+   
+}
+
+.Exclusively_div_1
+{
+    width: 120px;
+    height: 100px;
+    background-image: url(../../images/Exclusively/e1.webp);
+    background-size: cover;
+    align-items: baseline;
+}
+
+
+.Exclusively_div_2
+{
+    width: 120px;
+    height: 100px;
+    background-image: url(../../images/Exclusively/e2.webp);
+    background-size: cover;
+}
+.Exclusively_div_3
+{
+    width: 120px;
+    height: 100px;
+    background-image: url(../../images/Exclusively/e3.webp);
+    background-size: cover;
+}
+.Exclusively_div_4
+{
+    width: 120px;
+    height: 100px;
+    background-image: url(../../images/Exclusively/e4.webp);
+    background-size: cover;
+}
+.Exclusively_div_5
+{
+    width: 120px;
+    height: 100px;
+    background-image: url(../../images/Exclusively/e5.webp);
+    background-size: cover;
+}
+.Exclusively_div_6
+{
+    width: 120px;
+    height: 100px;
+    background-image: url(../../images/Exclusively/e6.webp);
+    background-size: cover;
+}
+.Exclusively_div_7
+{
+    width: 120px;
+    height: 100px;
+    background-image: url(../../images/Exclusively/e7.webp);
+    background-size: cover;
 }
 #offer-prize
 {
@@ -210,7 +276,7 @@
     
 }
 
-h6
+.Home_h6
 {
     font-size: 20px;
     padding: 10px;
@@ -219,14 +285,14 @@ h6
     background-color: black;
     /* margin-top: 160px; */
 }
-h1
+.home_h1
 {
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: black;
     font-style: italic;
     text-align: center;
-    /* margin-top: 10px; */
+    margin-bottom: 5px;
 }
 .small_banner
 {
@@ -320,4 +386,149 @@ h1
 .deals_div_3:hover
 {
     transform: scale(1.02);
+}
+#banner2
+
+{
+        width: 100%;
+        height: 300px;
+        background-image: url(../../images/10021.jpg);
+        margin: auto;
+        background-size: cover;
+        margin-top: 10px;
+}
+.tv_banner
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.tv_div_1
+{
+    width: 320px;
+    height: 380px;
+    background-image: url(../../images/tv1.webp);
+    background-size: cover;
+}
+.tv_div_1:hover
+{
+    transform: scale(1.02);
+}
+.tv_div_2
+{
+    width: 320px;
+    height: 380px;
+    background-image: url(../../images/tv2.webp);
+    background-size: cover;
+}
+.tv_div_2:hover
+{
+    transform: scale(1.02);
+}
+.tv_div_3
+{
+    width: 320px;
+    height: 380px;
+    background-image: url(../../images/tv3.webp);
+    background-size: cover;
+}
+.tv_div_3:hover
+{
+    transform: scale(1.02);
+}
+.tv_div_4
+{
+    width: 300px;
+    height: 380px;
+    background-image: url(../../images/tv4.webp);
+    background-size: cover;
+}
+.tv_div_4:hover
+{
+    transform: scale(1.02);
+}
+
+.brand_logo
+{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    margin: auto;
+    
+    justify-content: space-evenly;
+}
+.logo_1
+{
+    width: 200px;
+    height: 120px;
+    background-image: url(../../images/brand_logo/b1.webp);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.logo_2
+{
+    width: 200px;
+    height: 120px;
+    background-image: url(../../images/brand_logo/b2.webp);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.logo_3
+{
+    width: 200px;
+    height: 120px;
+    background-image: url(../../images/brand_logo/b3.webp);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+.logo_4
+{
+    width: 200px;
+    height: 120px;
+    background-image: url(../../images/brand_logo/b4.webp);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.logo_5
+{
+    width: 200px;
+    height: 120px;
+    background-image: url(../../images/brand_logo/b5.webp);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.logo_6
+{
+    width: 200px;
+    height: 120px;
+    background-image: url(../../images/brand_logo/b6.webp);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.logo_7
+{
+    width: 200px;
+    height: 120px;
+    background-image: url(../../images/brand_logo/b7.webp);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.logo_8
+{
+    width: 200px;
+    height: 120px;
+    background-image: url(../../images/brand_logo/b8.webp);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 20px;
 }
