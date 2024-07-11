@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+# from rest_framework import rest_framework_simplejwt
 import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -47,7 +48,7 @@ INSTALLED_APPS = [
     'reviews',
     'rest_framework',
     "corsheaders",
-    'rest_framework_simplejwt',
+    # 'rest_framework_simplejwt',
 ]
 
 MIDDLEWARE = [
@@ -111,12 +112,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-REST_FRAMEWORK = {
+# REST_FRAMEWORK = {
     
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    )
-}
+#     'DEFAULT_AUTHENTICATION_CLASSES': (
+#         'rest_framework_simplejwt.authentication.JWTAuthentication',
+#     )
+# }
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
