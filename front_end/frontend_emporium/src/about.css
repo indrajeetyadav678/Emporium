@@ -106,7 +106,7 @@ justify-content: center;flex-direction: column;
 .lastone h5{margin: 15px;}
 
 .midmain:hover{background-color: #DB4444;}
-.midmain{margin-left: 80px;}
+/* .midmain{margin-left: 80px;} */
 
 .picmain{display: flex;
 align-items: center;
@@ -115,7 +115,7 @@ justify-content: center;padding: 50px;
 .cardcont img{height: 200px;
 width: 200px;
 border-radius: 15px;}
-.cardcont a{margin-left: 100px;}
+.a{margin-left: 100px;}
 /* .......................error.......... */
 .errormain{
     display: flex;
@@ -157,6 +157,7 @@ border-radius: 15px;}
     .abtimg img {
         width: 80%;
         height: 80%;margin: 60px;
+        margin-top: 200px;
     }
 
     .abtheading {

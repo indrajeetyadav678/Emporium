@@ -51,16 +51,18 @@ const Footer=()=>{
             <li>Contact</li>
           </ul>
             </div>
-            <div className="sub-content5"> 
+            {/* <div className="sub-content5"> 
               <img src={Content5} alt=""/>
 
-            </div>
+            </div> */}
            
 
 
           </div>
           <div className="footer-end">
+            <center>
             © Copyright Emporium 2024 All right reserved
+            </center>
           </div>
 
         </div>
