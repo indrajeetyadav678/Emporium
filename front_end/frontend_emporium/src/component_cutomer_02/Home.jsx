@@ -4,7 +4,6 @@ import "./style/home.css";
 
 const Home=()=>{
     return(
-
          <>
          <div className="home_container">
             {/* *********this is slider part****************** */}
@@ -69,9 +68,5 @@ const Home=()=>{
          </div>
         </>
     )
-        
-        
-        
-    
 }
 export default Home;
