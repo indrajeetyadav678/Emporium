@@ -9,8 +9,7 @@ const Header=()=>
 
     {
         const Navigate = useNavigate();
-        const Incart = () => {
-            Navigate("/component_customer_02/Cart")
+
         }
         return(
             <>
@@ -63,7 +62,7 @@ const Header=()=>
                         <div className="icns">
                             <ul>
                                 <li><IoHeartOutline /></li>
-                                <li><button onClick={()=>{Incart()}}>Cart</button></li>
+                                <li><button onClick={()=>{Incart()}}><BsCart3/></button></li>
                                 <li><FiUser /></li>
                             </ul>
                         </div>
