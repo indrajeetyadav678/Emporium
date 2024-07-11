@@ -97,7 +97,7 @@ const About=()=>{
          </div>
 
          <div className="cardcont a" >
-            <img src="images/p2.jpg" alt="" />
+            <img src="public/images/p2.jpg" alt="" />
             <h2>Emma Watson</h2>
             <h5>Managing Director</h5>
             <div className="innericon"style={{display:"flex"}}>

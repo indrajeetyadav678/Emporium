@@ -106,7 +106,7 @@ justify-content: center;flex-direction: column;
 .lastone h5{margin: 15px;}
 
 .midmain:hover{background-color: #DB4444;}
-.midmain{margin-left: 80px;}
+/* .midmain{margin-left: 80px;} */
 
 .picmain{display: flex;
 align-items: center;
