@@ -6,7 +6,7 @@ import { FiUser } from "react-icons/fi";
 import { FaBars } from "react-icons/fa";
 import { FaBarsStaggered } from "react-icons/fa6";
 
-// import Footer from "./Component/Footer";
+
 
 import Footer from "./component_customer_011/Footer";
 import { useNavigate } from "react-router-dom";

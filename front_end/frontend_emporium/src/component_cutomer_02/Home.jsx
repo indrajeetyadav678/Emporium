@@ -34,7 +34,11 @@ const Home=()=>{
 
             {/* *********this is Best electronic  part****************** */}
 
+
+            <h1 style={{color:"black",marginTop:"-70px"}}>Best of Electronics</h1>
+
             <h1 className=".home_h1">Best of Electronics</h1>
+
             <div id="offer-prize">
                 <div id="box1">
                      <center>

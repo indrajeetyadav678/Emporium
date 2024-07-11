@@ -51,10 +51,7 @@ const Footer=()=>{
             <li>Contact</li>
           </ul>
             </div>
-            {/* <div className="sub-content5"> 
-              <img src={Content5} alt=""/>
 
-            </div> */}
            
 
 

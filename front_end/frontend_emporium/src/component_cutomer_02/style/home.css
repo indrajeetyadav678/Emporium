@@ -31,14 +31,14 @@
 /* Media query for smaller desktops */
 @media (max-width: 1439px) {
     .banner_slide {
-        height: 600px;
+        height: 400px;
     }
 }
 
 /* Media query for tablets */
 @media (max-width: 1023px) {
     .banner_slide {
-        height: 500px;
+        height: 400px;
     }
 }
 
@@ -55,7 +55,7 @@
     background-image: url(../../images/ss1.webp);
     background-size: cover;
     animation-duration: 2s;
-    animation: slide 20s infinite ;
+    animation: slide 40s infinite ;
     margin-top: 5px;
     animation-direction: alternate-reverse;
    
@@ -276,7 +276,11 @@
     
 }
 
+<<<<<<< HEAD
+ h6
+=======
 .Home_h6
+>>>>>>> b81a5bede24e165fb2601bec963b678c90c0bf6c
 {
     font-size: 20px;
     padding: 10px;
@@ -285,7 +289,11 @@
     background-color: black;
     /* margin-top: 160px; */
 }
+<<<<<<< HEAD
+ h1
+=======
 .home_h1
+>>>>>>> b81a5bede24e165fb2601bec963b678c90c0bf6c
 {
     font-size: 50px;
     font-weight: bold;

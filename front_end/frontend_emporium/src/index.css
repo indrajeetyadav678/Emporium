@@ -230,17 +230,9 @@ img {
         justify-content: center;
     }
 
-    .head1-content {
-        height: 18px;
-        font-size: 14px;
-        color: #FAFAFA;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: 300;
-        line-height: 0px;
-        word-wrap: break-word;
-        margin-left: 0px;
-        margin-top: 0px;
-        /* display: flex;align-items: center; */
+    .menu-bar ul {
+        flex-direction: column;
+        gap: 20px;
     }
 
     .head1-content3 select {
@@ -467,5 +459,25 @@ img {
     .icns ul li {
         font-size: 22px;
     }
-} 
 
+
+    .menu-bar ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 5px;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .icns {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .icns ul {
+        gap: 10px;
+    }
+}
