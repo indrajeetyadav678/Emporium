@@ -1,65 +1,61 @@
-
-
-
-
 /* Footer  CSS */
-:root{
+:root {
     background-color: #FAFAFA;
     color: black;
     /* border: 1px solid black; */
     box-sizing: border-box;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-.container
-{
+
+.container {
     width: auto;
     height: 350px;
     background-color: black;
     display: block;
 
 }
-.sub-container
-{
-    width:100%;
+
+.sub-container {
+    width: 100%;
     height: 236px;
     /* margin-left: 165px; */
     display: flex;
     gap: 5px;
     align-items: center;
     justify-content: space-evenly;
-    
+
     gap: 50px;
 
 
 }
-.sub-content1
-{
+
+.sub-content1 {
     width: 217px;
     /* height: 188px; */
     flex-wrap: wrap;
 
 
-    
+
 }
-.sub-content1 ul li{
+
+.sub-content1 ul li {
     list-style: none;
     margin-top: 25px;
     color: white;
     font-size: 16px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-img
-{
+
+img {
     width: 200px;
     height: 48px;
 }
-.sub-content2
-{
+
+.sub-content2 {
     width: 217px;
     /* height: 188px; */
     margin-left: 10px;
@@ -67,35 +63,36 @@ img
 
 
 }
-.sub-content2 ul li{
+
+.sub-content2 ul li {
     list-style: none;
     padding-top: 25px;
     color: white;
     font-size: 16px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-.sub-content3
-{
+
+.sub-content3 {
     width: 217px;
     /* height: 188px; */
     /* margin-top: 80px; */
     flex-wrap: wrap;
-   
+
 
 
 }
-.sub-content3 ul li{
+
+.sub-content3 ul li {
     list-style: none;
     padding-top: 25px;
     color: white;
     font-size: 16px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
-.sub-content4
-{
+.sub-content4 {
     width: 217px;
     /* height: 188px; */
     /* margin-top: 80px; */
@@ -104,111 +101,115 @@ img
 
 
 }
-.sub-content4 ul li{
+
+.sub-content4 ul li {
     list-style: none;
     padding-top: 25px;
     color: white;
     font-size: 16px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+
 /* .sub-content5 img
 {
     width: 198px;
     height: 210px;
     margin-top: 100px;
 } */
-.footer-end
-{
+.footer-end {
     /* width: 100%;
     height: 20px; */
     border-top: 1px solid rgb(130, 216, 217);
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* padding-left: 600px;*/
-    padding-top: 14px; 
+    padding-top: 14px;
     color: rgb(130, 216, 217);
     margin-top: 50px;
 }
-.sub-container
-{
+
+.sub-container {
     width: auto;
     height: auto;
     display: grid;
 }
-.sub-content2
-{
+
+.sub-content2 {
     margin-left: 0;
 }
-.sub-content1 .sub-content2 .sub-content3 .sub-content4 .sub-content5
-{
+
+.sub-content1 .sub-content2 .sub-content3 .sub-content4 .sub-content5 {
     width: 100px;
     height: 88px;
 
 }
-.sub-content1 .sub-content2 .sub-content3 .sub-content4 ul li{
+
+.sub-content1 .sub-content2 .sub-content3 .sub-content4 ul li {
 
 
     font-size: 8px;
 
 }
-.footer-end
-{
-   display: none;
+
+.footer-end {
+    display: none;
 
 }
+
 /* .......................................................................... */
-}
-
 /* Header.css */
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.head1
-{
+
+.head1 {
     width: 100%;
     height: 48px;
     background-color: black;
     display: flex;
-    margin: 0;
-    padding: 0;
+    /* justify-content: center; */
+    align-items: center;    
 
 }
-.head1-sub
-{
-    display: flex;align-items: center;justify-content: space-evenly;
+
+.head1-sub {
+   
+    width: 80%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
- 
-.head1-content
-{
-    height: 18px;
+
+.head1-content {
+    /* height: 18px; */
     font-size: 14px;
+    text-align: center;
     color: #FAFAFA;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
-    line-height: 21px;
+    /* line-height: 2px; */
     word-wrap: break-word;
-    margin-left: 300px;
-    margin-top: 10px;
+    /* margin-left: 300px; */
 
 }
-.head1-content2
-{
-    height: 18px;
+
+.head1-content2 {
+    /* height: 18px; */
     text-align: center;
     color: #FAFAFA;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     text-decoration: underline;
-    line-height: 24px;
-    margin-left:12px;
-    margin-top: 10px;
+    /* line-height: 24px; */
+    /* margin-left: 12px; */
+    /* margin-top: 10px; */
 }
-.head1-content3 select
-{
+
+.head1-content3 select {
     margin-left: 270px;
     margin-top: 13px;
     background: black;
@@ -218,93 +219,8 @@ img
     border: black;
 
 }
-.nav-container
-{
-    width: 100%;
-    height: 55px;
-    border-bottom:1px solid lightgray;
-}
-.navBar{
-    width: 1300px;
-    height: 38px;
-    display: flex;justify-content: space-evenly;
-    margin-left: px;
-    margin-top: 20px;
-}
-.title
-{
-    font-size: 25px;
-    display: flex;
-}
-.menu-bar ul
-{
-text-decoration: none;
-display: flex;
-list-style: none;
-/* margin-left: 165px; */
-margin-top: 10px;
-gap: 50px;
-}
-.menu-bar ul li{
-    text-decoration: none;
-    font-weight: 400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.menu-bar ul li:hover
-{
-    border-bottom: 2px solid black;
-}
-.search-bar 
-{
-    height: 30px;
-    width: 200px;
-    margin-top: 9px;
-    background-color: #eff3f5;
-    /* margin-left: 100px; */
-    display: flex;
-    border-radius:4px;
 
-
-
-}
-.search-bar input{
-     background: none;
-     border: none;
-     align-items: center;
-     outline: none;
-}
-.search-bar input::placeholder{
-    text-align: center;
-    font-size: 11px;
-}
-
-.search-icon
-{
-    margin-left: 5px;
-    margin-top: 3px;
-    font-size: 20px;
-}
-.icns
-{
-    width: 20px;
-    margin-top: 12px;
-    margin-left: 50px;
-}
-.icns ul 
-{
-list-style: none;
-display: flex;
-gap: 25px;
-
-}
-.icns ul li{
-    font-size: 22px;
-}
-
-  
-  
-  @media  (max-width: 768px)
-  {
+@media (max-width: 768px) {
     .head1 {
         width: 100%;
         height: 58px;
@@ -314,29 +230,25 @@ gap: 25px;
         justify-content: center;
     }
 
-    .head1-content {
-        height: 18px;
-        font-size: 14px;
-        color: #FAFAFA;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: 300;
-        line-height: 0px;
-        word-wrap: break-word;
-        margin-left: 0px;
-        margin-top: 0px;
-        /* display: flex;align-items: center; */
+    .menu-bar ul {
+        flex-direction: column;
+        gap: 20px;
     }
+
     .head1-content3 select {
         margin-left: 20px;
-        margin-top:0px;
+        margin-top: 0px;
         background: black;
         color: #FAFAFA;
         font-size: 14px;
-        display: flex;align-items: center;justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-bottom: 10px;
         font-weight: 300;
-        border:1px solid rgb(210, 224, 238);
+        border: 1px solid rgb(210, 224, 238);
     }
+
     .head1-content2 {
         height: 18px;
         text-align: center;
@@ -350,10 +262,222 @@ gap: 25px;
         margin-top: 10px;
     }
 
+}
 
+
+/* ------------------------ Customer_user Navigation bar ---------------------------- */
+.nav-container {
+    width: 100wv;
+    height: 65px;
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.navBar {
+    width: 100wv;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+#manubar{
+    display: none;
+    width: 40px;
+}
+#manubar_open{
+    display: block;
+}
+#manubar_close{
+    display: none;
+}
+
+.title {
+    font-size: 22px;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Lobster', cursive;
+}
+
+.menu-bar ul {
+    width: 350px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu-bar ul li {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.menu-bar ul li:hover {
+    border-bottom: 2px solid black;
+}
+
+.search-bar {
+    height: 30px;
+    width: 200px;
+    background-color: #eff3f5;
+    display: flex;
+    border-radius: 4px;
+
+
+
+}
+
+.search-bar input {
+    background: none;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+}
+
+.search-bar input::placeholder {
+    text-align: center;
+    font-size: 11px;
+}
+
+.search-icon {
+    cursor: pointer;
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+.icns {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icns ul {
+    width: 100px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 25px; */
+
+}
+
+.icns ul li {
+    font-size: 22px;
+}
+
+@media (max_width:1024px) 
+{
+    #manubar{
+        display: block;
+    }
+    #manubar_open{
+        display: block;
+    }
+    #manubar_close{
+        display: none;
+    }
     
-  }
-  
+    .title {
+        font-size: 22px;
+        display: flex;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:'Lobster', cursive;
+    }
+    
+    .menu-bar{
+        display: none;
+    }
+    
+    .menu-bar ul {
+        width: 350px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    
+    .menu-bar ul li {
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: 400;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    
+    .menu-bar ul li:hover {
+        border-bottom: 2px solid black;
+    }
+    
+    .search-bar {
+        height: 30px;
+        width: 200px;
+        background-color: #eff3f5;
+        display: flex;
+        border-radius: 4px;
+    
+    
+    
+    }
+    
+    .search-bar input {
+        background: none;
+        border: none;
+        outline: none;
+        padding-left: 8px;
+    }
+    
+    .search-bar input::placeholder {
+        text-align: center;
+        font-size: 11px;
+    }
+    
+    .search-icon {
+        cursor: pointer;
+        margin-top: 3px;
+        font-size: 20px;
+    }
+    
+    .icns {
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .icns ul {
+        width: 100px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        /* gap: 25px; */
+    
+    }
+    
+    .icns ul li {
+        font-size: 22px;
+    }
 
 
+    .menu-bar ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 5px;
+    }
 
+    .search-bar {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .icns {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .icns ul {
+        gap: 10px;
+    }
+}
