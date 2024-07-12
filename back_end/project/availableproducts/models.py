@@ -7,10 +7,9 @@ def generated_admin_id():
 
 class Customermodel(models.Model):
     customer_id = models.CharField(max_length=20,unique=True)
-    customer_email = models.EmailField(max_length=254)
-    customer_name = models.CharField(max_length=100)
-    customer_number = models.IntegerField()
-    customer_password = models.CharField(max_length=30)
+    image = models.ImageField(upload_to='images/')
+    description = models.CharField(max_length=100)
+    type = models.CharField(max_length=50)
 
     class Meta:
         db_table = 'Customer'
