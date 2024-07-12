@@ -106,11 +106,10 @@
     display: flex;
     justify-content: space-evenly;
     margin: auto;
-    background-color: rgb(75, 70, 70);
+    /* background-color: rgb(156, 153, 153); */
     padding-top: 10px;
-    margin-bottom: 10px;
-
-   
+    margin-bottom: 20px;
+  
 }
 
 .Exclusively_div_1
@@ -277,25 +276,26 @@
 }
 
 
- h6
 
-
+h5
 {
     font-size: 20px;
     padding: 10px;
     color: white;
     margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     /* margin-top: 160px; */
 }
 h1
 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     color: black;
-    font-style: italic;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .small_banner
 {
