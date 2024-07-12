@@ -106,11 +106,10 @@
     display: flex;
     justify-content: space-evenly;
     margin: auto;
-    background-color: rgb(75, 70, 70);
+    /* background-color: rgb(156, 153, 153); */
     padding-top: 10px;
-    margin-bottom: 10px;
-
-   
+    margin-bottom: 20px;
+  
 }
 
 .Exclusively_div_1
@@ -276,31 +275,31 @@
     
 }
 
-<<<<<<< HEAD
- h6
-=======
+
+
 .Home_h6
->>>>>>> b81a5bede24e165fb2601bec963b678c90c0bf6c
+
 {
     font-size: 20px;
     padding: 10px;
     color: white;
     margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     /* margin-top: 160px; */
 }
-<<<<<<< HEAD
- h1
-=======
-.home_h1
->>>>>>> b81a5bede24e165fb2601bec963b678c90c0bf6c
+
+
+.home_container h1
+
 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     color: black;
-    font-style: italic;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .small_banner
 {
