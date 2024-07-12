@@ -12,7 +12,10 @@ import SignIn from "./component_customer_01/SignIn";
 
 // import Checkout from "./checkout";
 import Cart from "./component_cutomer_02/Cart";
+
+import Addproduct from "./addproducts";
 import HomeTheater from "./component_cutomer_02/home_theater_page";
+
 
 const App=()=>{
   return(
@@ -37,6 +40,10 @@ const App=()=>{
 
 
             <Route path="cart" element={<Cart/>} />
+
+            <Route path="checkout" element={<Checkout/>} />          
+            <Route path="addproduct" element={<Addproduct/>} />          
+                
             <Route path="checkout" element={<Checkout/>} />
             <Route path="home_theater_page" element={<HomeTheater/>}/>
 
