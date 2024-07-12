@@ -4,16 +4,19 @@ const Home=()=>{
     return(
          <>
          <div className="home_container">
-            {/* *********this is slider part****************** */}
+            {/* *********this is slider part start************* */}
             
             <div className="banner_slide">
                 <div className="slider">
                 </div>
             </div>
             {/* *********slider part End****************** */}
+
             {/* *********Exclusively start****************** */}
 
-            <h1 className=".home_h1">Exclusively Curated For You</h1>
+            <center> 
+                <h1 className=".home_h1">Exclusively Curated For You</h1>
+            </center> 
             <div className="Exclusively">
                 
                 <div className="Exclusively_div_1"></div>
@@ -23,22 +26,13 @@ const Home=()=>{
                 <div className="Exclusively_div_5"></div>
                 <div className="Exclusively_div_6"></div>
                 <div className="Exclusively_div_7"></div>
-
-
-
-
-
-
             </div>
             {/* *********Exclusively End****************** */}
 
             {/* *********this is Best electronic  part****************** */}
-
-
-            <h1 style={{color:"black",marginTop:"-70px"}}>Best of Electronics</h1>
-
-            <h1 className=".home_h1">Best of Electronics</h1>
-
+            <center>
+                <h1 className=".home_h1">Best of Electronics</h1>
+            </center>
             <div id="offer-prize">
                 <div id="box1">
                      <center>
@@ -68,7 +62,9 @@ const Home=()=>{
             </div>
             {/* ********* Best electronic  part End****************** */}
             {/* ********* this is  Leatest Product ****************** */}
+            <center>
             <h1 className=".home_h1">Latest Laptops For You</h1>
+            </center>
             <div className="small_banner">
                 <div className="leatest_pro_1">
                    
@@ -79,7 +75,9 @@ const Home=()=>{
             </div>
             {/* ********* Leatest Product End ****************** */}
             {/* ********* deals of The Day Start ****************** */}
+            <center>
             <h1 className=".home_h1">Deals Of The Day</h1>
+            </center>
             <div className="deals">
                 <div className="deals_div_1"></div>
                 <div className="deals_div_2"></div>
@@ -89,11 +87,14 @@ const Home=()=>{
             {/* ********* deals of The Day End ****************** */}
             
             {/* ********* Champion Deals start ****************** */}
-
+            <center>
             <h1 className=".home_h1"> Champion Deals Zone</h1>
+            </center>
             <div id="banner2">
             </div>
+            <center>
             <h1 className=".home_h1">Select Your Display Type</h1>
+            </center>
             <div className="tv_banner">
                 <div className="tv_div_1"> </div>
                 <div className="tv_div_2"> </div>
@@ -104,7 +105,9 @@ const Home=()=>{
              {/* ********* Champion Deals end ****************** */}
 
             {/* ********* Brand Logo Start ****************** */}
+            <center>
             <h1 className=".home_h1">Brands We Are Passionate About</h1>
+            </center>
             <marquee scrollamount="30"><div className="brand_logo">
                 <div className="logo_1">
                 </div>
