@@ -1,6 +1,6 @@
 /* ............................................about............................................................... */
 
-  
+ 
 .main{display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -16,14 +16,13 @@
 
 .abtheading{width: 500px;
     height: 300px;
+    overflow:scroll;
+    text-align: left;
 }
-.abtheading h1{
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
+
 .abtheading p{
     margin-top: 30px;
-    /* word-spacing: 2px; */
+    word-spacing: 2px; 
 }
 
 
@@ -137,10 +136,10 @@ border-radius: 15px;}
     border: none;
     border-radius: 5px;
     color: wheat;
-}
+} 
 /* 
 /* ......................... */
-/* Media query for tablets (768px and below) 
+ /* Media query for tablets (768px and below)  */
 @media (max-width: 768px) {
     .main {
         flex-direction: column;
@@ -206,8 +205,8 @@ border-radius: 15px;}
     .cardcont h5{font-size: 18px;}
     .cardcont .innericon{font-size: 34px;}
 }
-*/
- /* Media query for mobile devices (480px and below) 
+
+  /* Media query for mobile devices (480px and below) 4 */
 @media (max-width: 480px) {
     .main {
         flex-direction: column;
@@ -290,285 +289,8 @@ border-radius: 15px;}
         width: 100%;
         font-size: 1em;
     }
-}  */
+}  
 
 
 
 
-/* Default Styles (Desktop) */
-.main {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-left: 150px;
-    margin-top: 50px;
-}
-.abtimg {
-    width: 500px;
-    margin-left: 100px;
-}
-.abtimg img {
-    width: 500px;
-    height: 400px;
-    border-radius: 12px;
-}
-.abtheading {
-    width: 500px;
-    height: 300px;
-}
-.abtheading h1 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-.abtheading p {
-    margin-top: 30px;
-    word-spacing: 2px;
-}
-.midmain:hover {
-    background-color: #DB4444;
-    box-shadow: inset 0px 0px 20px black, 0px 0px 20px black;
-}
-.card {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.midmain {
-    border-radius: 15px;
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.midmain h2 {
-    margin: 10px;
-    font-size: 25px;
-}
-.midmain h5 {
-    margin: 5px;
-}
-.iconouter {
-    background-color: dodgerblue;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid black;
-}
-.iconinner {
-    background-color: dodgerblue;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-}
-.cardcont {
-    padding: 15px;
-    border-radius: 20px;
-    background-color: #B7E3FF;
-}
-.cardcont:hover {
-    box-shadow: 0px 0px 20px black;
-}
-.cardcont h2 {
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-.cardcont h5 {
-    margin-bottom: 10px;
-}
-.lastmain {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.lastouter {
-    border-radius: 50%;
-    background-color: dodgerblue;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.lastinner {
-    border-radius: 50%;
-    background-color: white;
-    height: 40px;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.lastone {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.lastone h5 {
-    margin: 15px;
-}
-.picmain {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-}
-.cardcont img {
-    height: 200px;
-    width: 200px;
-    border-radius: 15px;
-}
-.a {
-    margin-left: 100px;
-}
-
-/* Media Queries */
-
-/* Large Devices (Desktops) */
-@media (max-width: 1200px) {
-    .main {
-        margin-left: 100px;
-    }
-    .abtimg {
-        width: 400px;
-        margin-left: 50px;
-    }
-    .abtimg img {
-        width: 400px;
-        height: 320px;
-    }
-    .abtheading {
-        width: 400px;
-    }
-    .midmain {
-        width: 180px;
-        height: 180px;
-    }
-    .midmain h2 {
-        font-size: 22px;
-    }
-    .iconouter {
-        width: 45px;
-        height: 45px;
-    }
-    .iconinner {
-        width: 35px;
-        height: 35px;
-        font-size: 25px;
-    }
-    .cardcont img {
-        height: 180px;
-        width: 180px;
-    }
-}
-
-/* Medium Devices (Tablets) */
-@media (max-width: 992px) {
-    .main {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-left: 50px;
-    }
-    .abtimg {
-        width: 100%;
-        margin-left: 0;
-    }
-    .abtimg img {
-        width: 100%;
-        height: auto;
-    }
-    .abtheading {
-        width: 100%;
-    }
-    .card {
-        flex-direction: column;
-    }
-    .midmain {
-        width: 150px;
-        height: 150px;
-    }
-    .midmain h2 {
-        font-size: 20px;
-    }
-    .iconouter {
-        width: 40px;
-        height: 40px;
-    }
-    .iconinner {
-        width: 30px;
-        height: 30px;
-        font-size: 20px;
-    }
-    .cardcont img {
-        height: 150px;
-        width: 150px;
-    }
-}
-
-/* Small Devices (Phones) */
-@media (max-width: 576px) {
-    .main {
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-    .abtimg {
-        width: 100%;
-        margin-left: 0;
-    }
-    .abtimg img {
-        width: 100%;
-        height: auto;
-    }
-    .abtheading {
-        width: 100%;
-        height: auto;
-    }
-    .abtheading h1 {
-        font-size: 24px;
-    }
-    .midmain {
-        width: 120px;
-        height: 120px;
-    }
-    .midmain h2 {
-        font-size: 18px;
-    }
-    .midmain h5 {
-        font-size: 14px;
-    }
-    .iconouter {
-        width: 35px;
-        height: 35px;
-    }
-    .iconinner {
-        width: 25px;
-        height: 25px;
-        font-size: 18px;
-    }
-    .cardcont {
-        padding: 10px;
-    }
-    .cardcont img {
-        height: 120px;
-        width: 120px;
-    }
-    .lastmain {
-        flex-direction: column;
-    }
-    .lastone h5 {
-        font-size: 16px;
-    }
-    .a {
-        margin-left: 0;
-    }
-}
