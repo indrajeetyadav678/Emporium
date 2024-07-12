@@ -1,7 +1,7 @@
 
 import Eml from "../images/emailF.jpg"
-import Content5 from "../images/content5.jpg"
-import "../index.css"
+
+
 
 const Footer=()=>{
 

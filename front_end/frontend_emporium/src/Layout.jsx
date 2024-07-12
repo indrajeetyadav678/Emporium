@@ -23,19 +23,17 @@ const Layout = () => {
     }
     return (
         <>
-            <header>
-                <div className="head1">
-                    <div className="head1-sub">
-                        <div className="head1-content">
-                            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+            <header className="header1">
+                
+                    <div className="head-sub1">
+                       
+                            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! ShopNow
                         </div>
-                        <div className="head1-content2">
-                            ShopNow
-                        </div>
+                       
 
-                    </div>
+                   
 
-                    <div className="head1-content3">
+                    <div className="head-sub2">
                         <select>
                             <option>English</option>
                             <option>Spanish</option>
@@ -45,52 +43,47 @@ const Layout = () => {
                             <option>Hindi</option>
                         </select>
                     </div>
-                </div>
+               
             </header>
 
 
             <div className="nav-container">
-                <nav className="navBar">
-                    <div id="manubar">
-                    <label id="manubar_open"><FaBars /></label>
-                    <label id="manubar_close"><FaBarsStaggered /></label>
-                    </div>
-                    <div className="title">
+                
                         <span>Electronic Emporium</span>
-                    </div>
-                    <div className="menu-bar">
                         <ul>
-                            <li> <Link to="home" style={{ textDecoration: "none" }}>Home</Link> </li>
-                            <li> <Link to="contact" style={{ textDecoration: "none" }}>Contact</Link> </li>
-                            <li> <Link to="about" style={{ textDecoration: "none" }}>About</Link> </li>
+                            <li> <Link to="home" >Home</Link> </li>
+                            <li> <Link to="contact" >Contact</Link> </li>
+                            <li> <Link to="about" >About</Link> </li>
                             {user?
-                            (<li> <Link to="sign_up" style={{ textDecoration: "none" }}>Sign-up</Link> </li>):
-                            (<li> <Link to="sign_up" style={{ textDecoration: "none" }}>Logout</Link> </li>)}
-                            <li> <Link to="checkout" style={{ textDecoration: "none" }}>checkout</Link> </li>
-                            <li> <Link to="addproduct" style={{ textDecoration: "none" }}>addproduct</Link> </li>
+                            (<li> <Link to="sign_up" >Sign-up</Link> </li>):
+                            (<li> <Link to="sign_up" >Logout</Link> </li>)
+                            }
+                            <li> <Link to="checkout" >checkout</Link> </li>
+                            <li> <Link to="addproduct" >addproduct</Link> </li>
 
                         </ul>
-                    </div>
+                  
 
-                    <div className="icns">
+                    
                         <div className="search-bar">
 
                             <input type="text" placeholder="What are you looking for?" />
-                            <div className="search-icon">
-                               <a href="#"><IoIosSearch /></a>
-                            </div>
+                            
+                               <IoIosSearch  className="search-icon"/>
+                            
                         </div>
                         <ul>
-                            <li style={{cursor:"pointer"}}><IoHeartOutline /></li>
+                            <li ><IoHeartOutline /></li>
 
-                            <li style={{cursor:"pointer"}} onClick={Incart}><BsCart3 /></li>
+                            <li  onClick={Incart}><BsCart3 /></li>
 
-                            <li style={{cursor:"pointer"}}><FiUser /></li>
+                            <li ><FiUser /></li>
 
                         </ul>
-                    </div>
-                </nav>
             </div>
+              
+               
+           
 
             <Outlet />
             <Footer />
