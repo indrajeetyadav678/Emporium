@@ -15,7 +15,7 @@ const Home=()=>{
             {/* *********Exclusively start****************** */}
 
             <center> 
-                <h1 className=".home_h1">Exclusively Curated For You</h1>
+                <h1 className=".home_h1" style={{marginTop:"-50px"}}>Exclusively Curated For You</h1>
             </center> 
             <div className="Exclusively">
                 
