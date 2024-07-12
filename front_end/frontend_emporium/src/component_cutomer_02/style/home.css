@@ -77,7 +77,7 @@
 @media (max-width: 767px) {
     .slider {
         height: 60%; 
-        animation-duration: 3s;  
+        animation-duration: 15s;  
         margin-top: 10px; 
     }
 }
@@ -86,7 +86,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .slider {
         height: 70%; 
-        animation-duration: 3s; 
+        animation-duration: 10s; 
         margin-top: 8px; 
     }
 }
@@ -95,7 +95,7 @@
 @media (min-width: 1025px) and (max-width: 1440px) {
     .slider {
         height: 80%; 
-        animation-duration: 3s; 
+        animation-duration: 10s; 
         margin-top: 5px; 
     }
 }
@@ -276,11 +276,7 @@
     
 }
 
-<<<<<<< HEAD
- h6
-=======
 .Home_h6
->>>>>>> b81a5bede24e165fb2601bec963b678c90c0bf6c
 {
     font-size: 20px;
     padding: 10px;
@@ -289,11 +285,8 @@
     background-color: black;
     /* margin-top: 160px; */
 }
-<<<<<<< HEAD
- h1
-=======
+
 .home_h1
->>>>>>> b81a5bede24e165fb2601bec963b678c90c0bf6c
 {
     font-size: 50px;
     font-weight: bold;

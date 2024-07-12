@@ -9,7 +9,7 @@ import Contact from "./component_cutomer_02/Contact";
 
 import Checkout from "./checkout";
 import Cart from "./component_cutomer_02/Cart";
-
+import Addproduct from "./addproducts";
 
 const App=()=>{
   return(
@@ -27,6 +27,8 @@ const App=()=>{
             <Route path="signin" element={<SignIn/>} />
             <Route path="cart" element={<Cart/>} />
             <Route path="checkout" element={<Checkout/>} />          
+            <Route path="addproduct" element={<Addproduct/>} />          
+                 
           </Route>
         </Routes>
       </BrowserRouter>

@@ -7,7 +7,6 @@ import { FaBars } from "react-icons/fa";
 import { FaBarsStaggered } from "react-icons/fa6";
 
 
-
 import Footer from "./component_customer_011/Footer";
 import { useNavigate } from "react-router-dom";
 import {useAuth0 } from "@auth0/auth0-react";
@@ -68,6 +67,7 @@ const Layout = () => {
                             (<li> <Link to="sign_up" style={{ textDecoration: "none" }}>Sign-up</Link> </li>):
                             (<li> <Link to="sign_up" style={{ textDecoration: "none" }}>Logout</Link> </li>)}
                             <li> <Link to="checkout" style={{ textDecoration: "none" }}>checkout</Link> </li>
+                            <li> <Link to="addproduct" style={{ textDecoration: "none" }}>addproduct</Link> </li>
 
                         </ul>
                     </div>

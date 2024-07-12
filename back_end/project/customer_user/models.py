@@ -6,11 +6,11 @@ def generated_admin_id():
     return f'"admin"+{str(uuid.uuid4())[:4]}'
 
 class Customermodel(models.Model):
-    customer_id = models.CharField(max_length=20,unique=True)
-    customer_email = models.EmailField(max_length=254)
-    customer_name = models.CharField(max_length=100)
-    customer_number = models.IntegerField()
-    customer_password = models.CharField(max_length=30)
+    customer_id = models.CharField(max_length=20,unique=True, null=True)
+    customer_email = models.EmailField(max_length=254, null=True)
+    customer_name = models.CharField(max_length=100, null=True)
+    customer_number = models.IntegerField( null=True)
+    customer_password = models.CharField(max_length=30, null=True)
 
     class Meta:
         db_table = 'Customer'
