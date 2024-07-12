@@ -30,7 +30,7 @@
 box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 /* transform: translate(0px, -8px); */
 }
-img
+.content2 img
 {
     width: 200px;
     height: 200px;
@@ -39,21 +39,21 @@ img
     display: block;
 
 }
-p1
+.p1
 {
     text-align: center;
     color: grey;
     padding-top: 0px;
 
 }
-h5{
+.content2 h5{
     font-size: 26px;
     text-align: center;
     color: black;
     margin: 0;
 
 }
-ul
+.content2 ul
 {
     list-style: none;
     display: flex;
@@ -61,28 +61,28 @@ ul
     align-items: center;
     padding-top: 0;
 }
-li
+.content2 li
 {
     padding-top: 5px;
 }
-.fa
+.content2 .fa
 {
     font-size: 26px;
     transition: .4s;
     margin: 3px;
    
 }
-.fa:hover
+.content2 .fa:hover
 {
     
     transition: .6s;
 }
-.fa-star
+.content2 .fa-star
 {
    color: gold;
 }
 
-button
+.content2 button
 {
     text-align: center;
     font-size: 24px;
