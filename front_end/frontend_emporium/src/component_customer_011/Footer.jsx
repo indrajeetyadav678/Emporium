@@ -10,7 +10,7 @@ const Footer=()=>{
     <footer> 
         <div className="container">
           <div className="sub-container" >
-            <div className="sub-content1">
+            <div className="sub-content">
               <ul>
                 <li><h3>Electronic Emporium</h3></li>
                 <li>Subscribe</li>
@@ -19,7 +19,7 @@ const Footer=()=>{
               </ul>
 
             </div>
-            <div className="sub-content2">
+            <div className="sub-content">
               <ul>
                 <li><h3>Support</h3></li>
                 <li>111 Bijoy sarani,Dhaka,<br/>DH 1515,Bangladesh,</li>
@@ -28,7 +28,7 @@ const Footer=()=>{
               </ul>
 
             </div>
-            <div className="sub-content3">
+            <div className="sub-content">
               <ul>
                 <li>
                   <h3>Account</h3>
@@ -40,7 +40,7 @@ const Footer=()=>{
           </ul>
 
             </div>
-            <div className="sub-content4">
+            <div className="sub-content">
               <ul>
                 <li>
                   <h3>Quick Link</h3>
