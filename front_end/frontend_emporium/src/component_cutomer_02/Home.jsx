@@ -71,7 +71,8 @@ const Home=()=>{
             {/* ********* this is  Leatest Product ****************** */}
             <center>
            <div className="exclu-h1"  data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom"> <h1 >Latest Laptops For You</h1></div>
+              data-aos-anchor-placement="bottom-bottom" > 
+              <h1 >Latest Laptops For You</h1></div>
             </center>
             <div className="small_banner">
                 <div className="leatest_pro_1">
@@ -124,7 +125,7 @@ const Home=()=>{
             <div className="exclu-h1" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom"><h1>Brands We Are Passionate About</h1></div>
             </center>
-            <marquee scrollamount="30">
+            <marquee scrollamount="20">
                 <div className="brand_logo">
                 <div className="logo_1">
                 </div>
