@@ -1,6 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
+import { React, useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import { useState } from 'react'
 import Contact from "./component_cutomer_02/Contact";
+
 
 
 import Checkout from "./checkout";
@@ -19,6 +26,20 @@ import HomeTheater from "./component_cutomer_02/home_theater_page";
 
 
 const App=()=>{
+  // for animation
+  useEffect(() => {
+    AOS.init({
+         duration: 500,
+         once: false,
+       })
+  }, [])
+
+
+
+
+
+
+
   return(
     <>
      

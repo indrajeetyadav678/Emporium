@@ -1,9 +1,4 @@
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 
 /* .......................................................................... */
 /* Header.css */
@@ -20,24 +15,10 @@ background-color: #222222;
 color: darkturquoise;
 }
 
+.head-sub1{width: 800px;}
 .header1 select{color: darkturquoise;
 background-color: transparent;
 border: 1px solid darkturquoise;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -52,11 +33,25 @@ border: 1px solid darkturquoise;}
 .nav-container ul li{
     display: inline;
     margin: 15px;
-    
+    color: #222222;
     
 }
+.head-ul{color: #222222;position: relative;
+    list-style: none;
+    
+text-decoration: none;font-weight: 500;}
+
+.head-ul:hover::after{
+    content: "";
+    width: 45%;
+    height: 2px;
+    background: #088178;position: absolute;
+    bottom: -4px;left:5px ;
+}
 .nav-container li{font-weight: 400;}
-.nav-container span{font-weight: 600;font-size: 1.5em;}
+.nav-container span{font-weight: 600;
+    font-size: 1.5em;
+}
 
 
 .search-bar{border: 1.5px solid darkturquoise;
@@ -69,3 +64,50 @@ height: 25px;width: 200px;
 .search-icon{font-size: 16px;}
 .search-bar input{border: none;
 outline: none;}
+
+
+
+
+
+
+
+
+/* ..............................footer......................... */
+
+.container{display: flex;
+    border:  1px solid black;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: black;
+    color: #eff3f5;
+    
+    }
+    .sub-content ul li {text-decoration: none;
+    list-style: none;
+    }
+    .sub-content li{
+        
+     font-size: 16px;
+     margin: 8px 0px;
+    }
+    .sub-content li:hover{color: rgb(149, 155, 159);}
+    
+    .sub-content h3{
+        font-size: 24px;
+        margin: 10px 0px;
+       }
+       
+    .fimg{
+        height: 35px;
+        width: 200px;
+    }
+    
+    /* ............................................................... */
+    .footer-end {
+       font-weight: 600;
+       height: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
