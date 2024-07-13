@@ -16,7 +16,8 @@ import Cart from "./component_cutomer_02/Cart";
 
 import Addproduct from "./addproducts";
 import HomeTheater from "./component_cutomer_02/home_theater_page";
-
+// *************** Dashboard files******************
+import AdminDashboard from "./component_cutomer_02/AdminDashboard";
 
 const App=()=>{
   return(
@@ -24,29 +25,21 @@ const App=()=>{
      
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout/>}>
-          <Route index element={<Home/>} />
-          
+            <Route path="/" element={<Layout/>}>
+            <Route index element={<Home/>} />
             <Route path="home" element={<Home/>} />
             <Route path="contact" element={<Contact/>} />
             <Route path="about" element={<About/>} />
-            {/* <Route path="sign_up" element={<Signup/>} /> */}
             <Route path="checkout" element={<Checkout/>} />
             <Route path="about" element={<About/>} />
-
             <Route path="sign_up" element={<SignUp/>} />
-
             <Route path="signin" element={<SignIn/>} />
-
-
-
             <Route path="cart" element={<Cart/>} />
-
             <Route path="checkout" element={<Checkout/>} />          
             <Route path="addproduct" element={<Addproduct/>} />          
-                
             <Route path="checkout" element={<Checkout/>} />
             <Route path="home_theater_page" element={<HomeTheater/>}/>
+            <Route path="adminDashboard" element={<AdminDashboard/>}/>
 
            
           </Route>
