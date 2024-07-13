@@ -1,0 +1,130 @@
+/* SideMenu.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.admin_container
+{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    margin: auto;
+    /* justify-content: space-evenly; */
+    
+}
+.side-menu {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 112px;
+    /* left: 0; */
+    background-color: #111;
+    padding-top: 20px;
+    transition: 0.3s;
+    z-index: 1000; /* Ensure it is above other content */
+    
+  }
+  
+  .side-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .side-menu ul li {
+    padding: 8px 16px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+  }
+  
+  .side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+  }
+  
+  .side-menu ul li a:hover {
+    background-color: #575757;
+  }
+  .admin_pannel
+  {
+    width: 1200px;
+    height: 250px;
+    display: flex;
+    background-color: whitesmoke;
+    margin-left: 270px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+  }
+  .order_pannel
+  {
+    width: 350px;
+    height: 200px;
+    background-color: rgb(210, 31, 31);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  .order_content
+  {
+    width: 250px;
+    height: 50px;
+    color: white;
+  }
+  .order_cont
+  {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  .order_logo
+  {
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .logo
+  {
+    width: 70px;
+    height:60px;
+    margin-top: 10px;
+    margin-left: 8px;
+  }
+.admin_table
+{
+    width: 1200px;
+    height: 500px;
+    background-color: wheat;
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
