@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from 'react'
+import Contact from "./component_cutomer_02/Contact";
 
 
 import Checkout from "./checkout";
@@ -27,7 +28,7 @@ const App=()=>{
           <Route index element={<Home/>} />
           
             <Route path="home" element={<Home/>} />
-            {/* <Route path="contact" element={<Contact/>} /> */}
+            <Route path="contact" element={<Contact/>} />
             <Route path="about" element={<About/>} />
             {/* <Route path="sign_up" element={<Signup/>} /> */}
             <Route path="checkout" element={<Checkout/>} />
