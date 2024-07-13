@@ -124,7 +124,8 @@ const Home=()=>{
             <div className="exclu-h1" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom"><h1>Brands We Are Passionate About</h1></div>
             </center>
-            <marquee scrollamount="30"><div className="brand_logo">
+            <marquee scrollamount="30">
+                <div className="brand_logo">
                 <div className="logo_1">
                 </div>
                 <div className="logo_2">
@@ -142,7 +143,8 @@ const Home=()=>{
                 <div className="logo_8">
                 </div>
                  
-            </div></marquee>
+            </div>
+            </marquee>
             {/* ********* Brand Logo Start ****************** */}
 
 
