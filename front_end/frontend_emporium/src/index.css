@@ -75,14 +75,15 @@ outline: none;}
 /* ..............................footer......................... */
 
 .container{display: flex;
-    border:  1px solid black;
-    align-items: center;
-    justify-content: space-evenly;
+    border:  1px solid darkturquoise;
+align-items: center;
+justify-content: space-between;
     padding: 30px;
     background-color: black;
     color: #eff3f5;
     
     }
+   
     .sub-content ul li {text-decoration: none;
     list-style: none;
     }
@@ -98,16 +99,12 @@ outline: none;}
         margin: 10px 0px;
        }
        
-    .fimg{
-        height: 35px;
-        width: 200px;
-    }
+    
     
     /* ............................................................... */
-    .footer-end {
-       font-weight: 600;
-       height: 40px;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-    }
+   .footer-end{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }

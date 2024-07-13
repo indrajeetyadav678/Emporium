@@ -9,13 +9,15 @@ const Footer=()=>{
     <>
     <footer> 
         <div className="container">
-          <div className="sub-container" >
+         
             <div className="sub-content">
               <ul>
                 <li><h3>Electronic Emporium</h3></li>
                 <li>Subscribe</li>
                 <li>Get 10% off your first order</li>
-                <li className="img"><img src={Eml} alt="" /></li>
+                <li>Search</li>
+                <li>Contact</li>
+              
               </ul>
 
             </div>
@@ -40,6 +42,7 @@ const Footer=()=>{
           </ul>
 
             </div>
+
             <div className="sub-content">
               <ul>
                 <li>
@@ -56,13 +59,13 @@ const Footer=()=>{
 
 
           </div>
+        
           <div className="footer-end">
             <center>
             © Copyright Emporium 2024 All right reserved
             </center>
           </div>
 
-        </div>
     </footer>
     
     </>

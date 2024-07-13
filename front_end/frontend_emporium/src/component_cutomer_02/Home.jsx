@@ -11,10 +11,6 @@ const Home=()=>{
                 </div>
             </div>
             {/* *********slider part End****************** */}
-
-
-
-
             {/* *********Exclusively start****************** */}
 
             <center> 
