@@ -5,7 +5,7 @@ import { BsCart3 } from "react-icons/bs";
 import { FiUser } from "react-icons/fi";
 import { FaBars } from "react-icons/fa";
 import { FaBarsStaggered } from "react-icons/fa6";
-
+import { AiOutlineBars } from "react-icons/ai";
 
 import Footer from "./component_customer_011/Footer";
 import { useNavigate } from "react-router-dom";
@@ -24,6 +24,8 @@ const Layout = () => {
     }
     return (
         <>
+         <input type="checkbox" id="navid"/>
+        
             <header className="header1">
                 
                         <div className="head-sub1">
@@ -56,16 +58,18 @@ const Layout = () => {
                             <li> <Link to="addproduct" className="head-ul">addproduct</Link> </li>
 
                         </ul>
+                        
                         <div className="search-bar">
                             <input type="text" placeholder="What are you looking for?" />
                                <IoIosSearch  className="search-icon"/>
                         </div>
-                        <ul>
-                            <li className="head-ul"><IoHeartOutline /></li>
-                            <li className="head-ul" onClick={Incart}><BsCart3 /></li>
-                            <li className="head-ul"><FiUser /></li>
+                        <div className="head-icon">
+                            <li className="head-ul iconh"><IoHeartOutline /></li>
+                            <li className="head-ul iconh" onClick={Incart}><BsCart3 /></li>
+                            <li className="head-ul iconh"><FiUser /></li>
 
-                        </ul>
+                        </div>
+                        <label for ="navid" className="label"><AiOutlineBars /></label>
             </div>
             
             <Outlet />
