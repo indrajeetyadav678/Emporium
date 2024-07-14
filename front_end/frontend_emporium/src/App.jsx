@@ -22,6 +22,7 @@ import SignIn from "./component_customer_01/SignIn";
 import Cart from "./component_cutomer_02/Cart";
 
 import Addproduct from "./addproducts";
+import Washing_Machine_page from "./component_cutomer_02/washing_machine_page";
 import Mobile_page from "./component_cutomer_02/mobile_page";
 import HomeTheater from "./component_cutomer_02/home_theater_page";
 // *************** Dashboard files******************
@@ -63,6 +64,7 @@ const App=()=>{
             <Route path="home_theater_page" element={<HomeTheater/>}/>
             <Route path="adminDashboard" element={<AdminDashboard/>}/>
             <Route path="mobile_page" element={<Mobile_page/>}/>
+            <Route path="washing_machine_page" element={<Washing_Machine_page/>}/>
 
            
           </Route>
