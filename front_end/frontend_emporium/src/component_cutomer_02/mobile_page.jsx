@@ -1,12 +1,12 @@
 import "./style/home_theater_page.css";
-const HomeTheater=()=>{
+
+const Mobile_page=()=>{
     return(
         <>
-        
-        <h1>  Home Theater Page</h1>
+        <h1>  Mobile  Page</h1>
         <div class="gallery">
             <div class="content2">
-                <img src="src/images/home_theater/h1.webp" alt=""/>
+                <img src="src/images/mobile/m1.jpg" alt=""/>
                 <h3>  iPhone  </h3>
                 <h5> <i class="fa fa-inr" aria-hidden="true"></i>47000 </h5>
                 <ul>
@@ -20,7 +20,7 @@ const HomeTheater=()=>{
 
             </div>
             <div class="content2">
-            <img src="src/images/home_theater/h1.webp" alt=""/>
+            <img src="src/images/mobile/m1.jpg" alt=""/>
             <h3> Laptop</h3>
                 <h5><i class="fa fa-inr" aria-hidden="true"></i>75000 </h5>
                 <ul>
@@ -34,7 +34,7 @@ const HomeTheater=()=>{
 
             </div>
             <div class="content2">
-            <img src="src/images/home_theater/h1.webp" alt=""/>
+            <img src="src/images/mobile/m1.jpg" alt=""/>
             <h3> Led TV </h3>
                 <h5> <i class="fa fa-inr" aria-hidden="true"></i>35000</h5>
                 <ul>
@@ -47,7 +47,7 @@ const HomeTheater=()=>{
                 <button class="buy"> Buy Now </button>
             </div>
             <div class="content2">
-            <img src="src/images/home_theater/h1.webp" alt=""/>
+            <img src="src/images/mobile/m1.jpg" alt=""/>
             <h3> Watch</h3>
                 <h5> <i class="fa fa-inr" aria-hidden="true"></i>2500 </h5>
                 <ul>
@@ -62,7 +62,7 @@ const HomeTheater=()=>{
         </div>
         <div class="gallery">
             <div class="content2">
-            <img src="src/images/home_theater/h1.webp" alt=""/>
+            <img src="src/images/mobile/m1.jpg" alt=""/>
             <h3>  Water Purifier  </h3>
                 
                 <h5><i class="fa fa-inr" aria-hidden="true"></i> 4336 </h5>
@@ -77,7 +77,7 @@ const HomeTheater=()=>{
 
             </div>
             <div class="content2">
-            <img src="src/images/home_theater/h1.webp" alt=""/>
+            <img src="src/images/mobile/m1.jpg" alt=""/>
             <h3> Wall Mounted Chimney </h3>
                 <h5> <i class="fa fa-inr" aria-hidden="true"></i>3999</h5>
                 <ul>
@@ -91,7 +91,7 @@ const HomeTheater=()=>{
 
             </div>
             <div class="content2">
-            <img src="src/images/home_theater/h1.webp" alt=""/>
+            <img src="src/images/mobile/m1.jpg" alt=""/>
             <h3> Induction Cooktop </h3>
                 <h5> <i class="fa fa-inr" aria-hidden="true"></i>2999</h5>
                 <ul>
@@ -104,7 +104,7 @@ const HomeTheater=()=>{
                 <button class="buy"> Buy Now </button>
             </div>
             <div class="content2">
-            <img src="src/images/home_theater/h1.webp" alt=""/>
+            <img src="src/images/mobile/m1.jpg" alt=""/>
             <h3> Mixer Grinder </h3>
                 <h5> <i class="fa fa-inr" aria-hidden="true"></i>$3299 </h5>
                 <ul>
@@ -117,7 +117,8 @@ const HomeTheater=()=>{
                 <button class="buy"> Buy Now </button>
             </div>
         </div>
- </>
+        
+        </>
     )
 }
-export default HomeTheater;
+export default Mobile_page;

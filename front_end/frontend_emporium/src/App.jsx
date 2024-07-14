@@ -22,6 +22,7 @@ import SignIn from "./component_customer_01/SignIn";
 import Cart from "./component_cutomer_02/Cart";
 
 import Addproduct from "./addproducts";
+import Mobile_page from "./component_cutomer_02/mobile_page";
 import HomeTheater from "./component_cutomer_02/home_theater_page";
 // *************** Dashboard files******************
 import AdminDashboard from "./component_cutomer_02/AdminDashboard";
@@ -61,6 +62,7 @@ const App=()=>{
             <Route path="checkout" element={<Checkout/>} />
             <Route path="home_theater_page" element={<HomeTheater/>}/>
             <Route path="adminDashboard" element={<AdminDashboard/>}/>
+            <Route path="mobile_page" element={<Mobile_page/>}/>
 
            
           </Route>
