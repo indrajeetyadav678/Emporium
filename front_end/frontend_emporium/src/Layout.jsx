@@ -5,9 +5,7 @@ import { BsCart3 } from "react-icons/bs";
 import { FiUser } from "react-icons/fi";
 import { FaBars } from "react-icons/fa";
 import { FaBarsStaggered } from "react-icons/fa6";
-
 // import Footer from "./Component/Footer";
-
 import Footer from "./component_customer_011/Footer";
 import { useNavigate } from "react-router-dom";
 import {useAuth0 } from "@auth0/auth0-react";
@@ -71,7 +69,6 @@ const Layout = () => {
 
                         </ul>
                     </div>
-
                     <div className="icns">
                         <div className="search-bar">
 
@@ -82,16 +79,12 @@ const Layout = () => {
                         </div>
                         <ul>
                             <li style={{cursor:"pointer"}}><IoHeartOutline /></li>
-
                             <li style={{cursor:"pointer"}} onClick={Incart}><BsCart3 /></li>
-
                             <li style={{cursor:"pointer"}}><FiUser /></li>
-
                         </ul>
                     </div>
                 </nav>
             </div>
-
             <Outlet />
             <Footer />
         </>
