@@ -46,7 +46,7 @@ const submithandle = () => {
             <div className="Ggl-btn">
               <div className="ggl-icn"><FcGoogle /></div>
               <div>
-                <input className="Ggl-input" style={{cursor:"pointer"}} onClick={()=>loginWithRedirect()} placeholder="Sign in with google"  />
+
               </div>
             </div>
             <p>Already have account? <Link to="/signin">Log in</Link></p>

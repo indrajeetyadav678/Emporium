@@ -29,6 +29,7 @@ urlpatterns = [
     path('tracking/',include('tracking.urls')),
     path('payment/',include('payment.urls')),
     path('reviews/',include('reviews.urls')),
+    path('availableproducts/',include('availableproducts.urls')),
 ]
 
 if settings.DEBUG:

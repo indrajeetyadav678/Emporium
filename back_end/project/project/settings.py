@@ -46,8 +46,10 @@ INSTALLED_APPS = [
     'tracking',
     'payment',
     'reviews',
+    'availableproducts',
     'rest_framework',
     "corsheaders",
+    
     # 'rest_framework_simplejwt',
 ]
 

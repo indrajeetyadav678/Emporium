@@ -11,13 +11,15 @@ const Home=()=>{
                 </div>
             </div>
             {/* *********slider part End****************** */}
-
             {/* *********Exclusively start****************** */}
 
             <center> 
-                <h1 className=".home_h1">Exclusively Curated For You</h1>
+                <div className="exclu-h1"  data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                     data-aos-duration="3000">
+        <h1 >Exclusively Curated For You</h1></div>
             </center> 
-            <div className="Exclusively">
+            <div className="Exclusively"data-aos="flip-down">
                 
                 <div className="Exclusively_div_1"></div>
                 <div className="Exclusively_div_2"></div>
@@ -31,39 +33,46 @@ const Home=()=>{
 
             {/* *********this is Best electronic  part****************** */}
             <center>
-                <h1 className=".home_h1">Best of Electronics</h1>
+                <div className="exclu-h1"  data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"><h1>Best of Electronics</h1></div>
             </center>
+
+
             <div id="offer-prize">
+
+
                 <div id="box1">
                      <center>
-                        <h6 className="Home_h6" style={{color:"white"}}> Home Theatres</h6>
+                        <h6 className="Home_h6" > Home Theatres</h6>
                     </center> 
                 </div>
                 <div id="box2" >
                      <center>
-                        <h6 className="Home_h6" align="bottom" style={{color:"white"}}> Laptops </h6>
+                        <h6 className="Home_h6" > Laptops </h6>
                     </center>
                 </div>
                 <div id="box3"> 
                     <center>
-                        <h6 className="Home_h6" style={{color:"white"}}> Headphones </h6>
+                        <h6 className="Home_h6" > Headphones </h6>
                     </center>   
                 </div>
                 <div id="box4"> 
                     <center>
-                        <h6 className="Home_h6" style={{color:"white"}}> Ipads </h6>
+                        <h6 className="Home_h6" > Ipads </h6>
                     </center>
                 </div>
                 <div id="box5">
                     <center> 
-                        <h6 className="Home_h6" style={{color:"white"}}> washing Machines</h6>
+                        <h6 className="Home_h6" > washing Machines</h6>
                     </center>  
                 </div>
             </div>
             {/* ********* Best electronic  part End****************** */}
             {/* ********* this is  Leatest Product ****************** */}
             <center>
-            <h1 className=".home_h1">Latest Laptops For You</h1>
+           <div className="exclu-h1"  data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom" > 
+              <h1 >Latest Laptops For You</h1></div>
             </center>
             <div className="small_banner">
                 <div className="leatest_pro_1">
@@ -76,7 +85,8 @@ const Home=()=>{
             {/* ********* Leatest Product End ****************** */}
             {/* ********* deals of The Day Start ****************** */}
             <center>
-            <h1 className=".home_h1">Deals Of The Day</h1>
+            <div className="exclu-h1"  data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"><h1 >Deals Of The Day</h1></div>
             </center>
             <div className="deals">
                 <div className="deals_div_1"></div>
@@ -88,14 +98,20 @@ const Home=()=>{
             
             {/* ********* Champion Deals start ****************** */}
             <center>
-            <h1 className=".home_h1"> Champion Deals Zone</h1>
+            <div className="exclu-h1" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"><h1> Champion Deals Zone</h1></div>
             </center>
-            <div id="banner2">
+            <div id="banner2" data-aos="flip-right"  data-aos-duration="3000">
             </div>
+
+
             <center>
-            <h1 className=".home_h1">Select Your Display Type</h1>
+            <div className="exclu-h1" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"><h1 >Select Your Display Type</h1></div>
             </center>
-            <div className="tv_banner">
+
+
+            <div className="tv_banner" data-aos="zoom-in-down"data-aos-duration="3000">
                 <div className="tv_div_1"> </div>
                 <div className="tv_div_2"> </div>
                 <div className="tv_div_3"> </div>
@@ -106,9 +122,11 @@ const Home=()=>{
 
             {/* ********* Brand Logo Start ****************** */}
             <center>
-            <h1 className=".home_h1">Brands We Are Passionate About</h1>
+            <div className="exclu-h1" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"><h1>Brands We Are Passionate About</h1></div>
             </center>
-            <marquee scrollamount="30"><div className="brand_logo">
+            <marquee scrollamount="20">
+                <div className="brand_logo">
                 <div className="logo_1">
                 </div>
                 <div className="logo_2">
@@ -126,7 +144,8 @@ const Home=()=>{
                 <div className="logo_8">
                 </div>
                  
-            </div></marquee>
+            </div>
+            </marquee>
             {/* ********* Brand Logo Start ****************** */}
 
 

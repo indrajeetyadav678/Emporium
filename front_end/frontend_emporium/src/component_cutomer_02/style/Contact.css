@@ -9,6 +9,7 @@
     width: 100%;
     height: 800px;
     display: flex;
+    flex-wrap: wrap;
 }
 .contact-cont1
 {
@@ -18,6 +19,7 @@
     /* margin-top: 323px; */
     margin-top: 120px;
     display: flex;
+
     box-shadow: 2px 2px 4px rgba(175, 156, 156, 0.5), -2px -2px 4px rgba(175, 156, 156, 0.5);
 
 }
