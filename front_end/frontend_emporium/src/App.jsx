@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 
 import { useState } from 'react'
 import Contact from "./component_cutomer_02/Contact";
+import AccountEdit from "./component_cutomer_02/AccountEdit";
 
 
 
@@ -67,6 +68,7 @@ const App=()=>{
             <Route path="mobile_page" element={<Mobile_page/>}/>
             <Route path="washing_machine_page" element={<Washing_Machine_page/>}/>
             <Route path="headphone_page" element={<Headphone_page/>}/>
+            <Route path="accountedit_page" element={<AccountEdit/>}/>
 
 
            
