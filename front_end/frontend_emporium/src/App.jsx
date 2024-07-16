@@ -1,16 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-
 import { React, useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
-import { useState } from 'react'
 import Contact from "./component_cutomer_02/Contact";
 import AccountEdit from "./component_cutomer_02/AccountEdit";
-
-
-
 import Checkout from "./checkout";
 // import { useState } from 'react'
 import About from './component_cutomer_02/about';
@@ -18,10 +11,8 @@ import Home from "./component_cutomer_02/Home";
 import Layout from "./Layout";
 import SignUp from "./component_customer_01/SignUp";
 import SignIn from "./component_customer_01/SignIn";
-
 // import Checkout from "./checkout";
 import Cart from "./component_cutomer_02/Cart";
-
 import Addproduct from "./addproducts";
 import Headphone_page from "./component_cutomer_02/headphone_page";
 import Washing_Machine_page from "./component_cutomer_02/washing_machine_page";
@@ -38,12 +29,6 @@ const App=()=>{
          once: false,
        })
   }, [])
-
-
-
-
-
-
 
   return(
     <>
@@ -69,9 +54,6 @@ const App=()=>{
             <Route path="washing_machine_page" element={<Washing_Machine_page/>}/>
             <Route path="headphone_page" element={<Headphone_page/>}/>
             <Route path="accountedit_page" element={<AccountEdit/>}/>
-
-
-           
           </Route>
         </Routes>
       </BrowserRouter>
