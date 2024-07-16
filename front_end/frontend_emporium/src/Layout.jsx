@@ -20,7 +20,7 @@ const Layout = () => {
 
     const Navigate = useNavigate();
     const Incart = () => {
-        Navigate("/cart")
+        Navigate("/checkout")
     }
     return (
         <>
