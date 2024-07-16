@@ -1,6 +1,6 @@
 /* ............................................about............................................................... */
 
-  
+ 
 .main{display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -16,14 +16,13 @@
 
 .abtheading{width: 500px;
     height: 300px;
+    overflow:scroll;
+    text-align: left;
 }
-.abtheading h1{
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
+
 .abtheading p{
     margin-top: 30px;
-    word-spacing: 2px;
+    word-spacing: 2px; 
 }
 
 
@@ -137,10 +136,10 @@ border-radius: 15px;}
     border: none;
     border-radius: 5px;
     color: wheat;
-}
+} 
 /* 
 /* ......................... */
-/* Media query for tablets (768px and below) */
+ /* Media query for tablets (768px and below)  */
 @media (max-width: 768px) {
     .main {
         flex-direction: column;
@@ -207,7 +206,7 @@ border-radius: 15px;}
     .cardcont .innericon{font-size: 34px;}
 }
 
- /* Media query for mobile devices (480px and below) */
+  /* Media query for mobile devices (480px and below) 4 */
 @media (max-width: 480px) {
     .main {
         flex-direction: column;
@@ -291,3 +290,7 @@ border-radius: 15px;}
         font-size: 1em;
     }
 }  
+
+
+
+

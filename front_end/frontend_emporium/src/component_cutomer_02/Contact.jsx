@@ -45,6 +45,23 @@ const Contact=()=>
          </div>
         
        
+        <div class="contact-cont2">
+            <div className="box-cont1">
+                <div className="input-cont2">
+                    <input type="text" placeholder="Your Name *" required/>
+                    <input type="text" placeholder="Your Email *" required/>
+                    <input type="text" placeholder="Your phone *" required/>
+                </div>
+                <div className="text-cont2">
+                <textarea placeholder="Your Message" />
+            </div>
+            <div className="btn-cont2">
+                <button>Send Message</button>
+            </div>
+            </div>
+            
+        </div>
+       
 
     </div>
          </>

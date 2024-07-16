@@ -99,6 +99,10 @@ box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 .buy
 {
     background-color: black;
+<<<<<<< HEAD
     /* background-image: url(../../images/wash3.webp); */
+=======
+    background-image: url(../../images/headphone/h1.webp);
+>>>>>>> bbffac63c75ecc52886319e01e8deb514e22d23d
 }
 

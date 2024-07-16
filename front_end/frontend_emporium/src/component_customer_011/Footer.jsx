@@ -1,7 +1,7 @@
 
 import Eml from "../images/emailF.jpg"
-import Content5 from "../images/content5.jpg"
-import "../index.css"
+
+
 
 const Footer=()=>{
 
@@ -9,17 +9,19 @@ const Footer=()=>{
     <>
     <footer> 
         <div className="container">
-          <div className="sub-container" >
-            <div className="sub-content1">
+         
+            <div className="sub-content">
               <ul>
                 <li><h3>Electronic Emporium</h3></li>
                 <li>Subscribe</li>
                 <li>Get 10% off your first order</li>
-                <li className="img"><img src={Eml} alt="" /></li>
+                <li>Search</li>
+                <li>Contact</li>
+              
               </ul>
 
             </div>
-            <div className="sub-content2">
+            <div className="sub-content">
               <ul>
                 <li><h3>Support</h3></li>
                 <li>111 Bijoy sarani,Dhaka,<br/>DH 1515,Bangladesh,</li>
@@ -28,7 +30,7 @@ const Footer=()=>{
               </ul>
 
             </div>
-            <div className="sub-content3">
+            <div className="sub-content">
               <ul>
                 <li>
                   <h3>Account</h3>
@@ -40,7 +42,8 @@ const Footer=()=>{
           </ul>
 
             </div>
-            <div className="sub-content4">
+
+            <div className="sub-content">
               <ul>
                 <li>
                   <h3>Quick Link</h3>
@@ -51,21 +54,18 @@ const Footer=()=>{
             <li>Contact</li>
           </ul>
             </div>
-            {/* <div className="sub-content5"> 
-              <img src={Content5} alt=""/>
 
-            </div> */}
            
 
 
           </div>
+        
           <div className="footer-end">
             <center>
             © Copyright Emporium 2024 All right reserved
             </center>
           </div>
 
-        </div>
     </footer>
     
     </>
