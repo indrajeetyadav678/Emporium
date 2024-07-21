@@ -2,12 +2,11 @@ import "./style/home.css";
 import { useNavigate } from "react-router-dom";
 
 const Home=()=>{
+
     const Navigate = useNavigate();
+    // ******* Best Electronic Function ********
     const home_theater_page= () => {
         Navigate("/home_theater_page")
-    }
-    const mobile_page= () => {
-        Navigate("/mobile_page")
     }
     const washing_machine_page= () => {
         Navigate("/washing_machine_page")
@@ -18,6 +17,19 @@ const Home=()=>{
     const laptop_page= () => {
         Navigate("/laptop_page")
     }
+    const ipad_page= () => {
+        Navigate("/ipad_page")
+    }
+
+    // ******* Deals Of The Day Function ********
+
+    const mobile_page= () => {
+        Navigate("/mobile_page")
+    }
+    const watch_page= () => {
+        Navigate("/watch_page")
+    }
+
     return(
          <>
          <div className="home_container">
@@ -73,7 +85,7 @@ const Home=()=>{
                         <h6 className="Home_h6" > Headphones </h6>
                     </center>   
                 </div>
-                <div id="box4" onClick={mobile_page}> 
+                <div id="box4" onClick={ipad_page}> 
                     <center>
                         <h6 className="Home_h6" > Ipads </h6>
                     </center>
@@ -106,9 +118,9 @@ const Home=()=>{
      data-aos-anchor-placement="bottom-bottom"><h1 >Deals Of The Day</h1></div>
             </center>
             <div className="deals">
-                <div className="deals_div_1"></div>
-                <div className="deals_div_2"></div>
-                <div className="deals_div_3"></div>
+                <div className="deals_div_1" onClick={watch_page}></div>
+                <div className="deals_div_2" onClick={washing_machine_page} ></div>
+                <div className="deals_div_3" onClick={mobile_page}></div>
                 <div className="deals_div_4"></div>
             </div>
             {/* ********* deals of The Day End ****************** */}
