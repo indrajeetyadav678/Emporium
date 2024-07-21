@@ -1,6 +1,23 @@
 import "./style/home.css";
+import { useNavigate } from "react-router-dom";
 
 const Home=()=>{
+    const Navigate = useNavigate();
+    const home_theater_page= () => {
+        Navigate("/home_theater_page")
+    }
+    const mobile_page= () => {
+        Navigate("/mobile_page")
+    }
+    const washing_machine_page= () => {
+        Navigate("/washing_machine_page")
+    }
+    const headphone_page= () => {
+        Navigate("/headphone_page")
+    }
+    const laptop_page= () => {
+        Navigate("/laptop_page")
+    }
     return(
          <>
          <div className="home_container">
@@ -41,27 +58,27 @@ const Home=()=>{
             <div id="offer-prize">
 
 
-                <div id="box1">
+                <div id="box1" onClick={home_theater_page}>
                      <center>
                         <h6 className="Home_h6" > Home Theatres</h6>
                     </center> 
                 </div>
-                <div id="box2" >
+                <div id="box2" onClick={laptop_page}>
                      <center>
                         <h6 className="Home_h6" > Laptops </h6>
                     </center>
                 </div>
-                <div id="box3"> 
+                <div id="box3" onClick={headphone_page}> 
                     <center>
                         <h6 className="Home_h6" > Headphones </h6>
                     </center>   
                 </div>
-                <div id="box4"> 
+                <div id="box4" onClick={mobile_page}> 
                     <center>
                         <h6 className="Home_h6" > Ipads </h6>
                     </center>
                 </div>
-                <div id="box5">
+                <div id="box5" onClick={washing_machine_page}>
                     <center> 
                         <h6 className="Home_h6" > washing Machines</h6>
                     </center>  

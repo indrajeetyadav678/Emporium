@@ -14,11 +14,17 @@ import SignIn from "./component_customer_01/SignIn";
 // import Checkout from "./checkout";
 import Cart from "./component_cutomer_02/Cart";
 import Addproduct from "./addproducts";
+
+// ********************This is Products Pages Start *************************
+
 import Headphone_page from "./component_cutomer_02/headphone_page";
 import Tv_page from "./component_cutomer_02/tv_page";
+import Laptop_page from "./component_cutomer_02/laptop_page";
 import Washing_Machine_page from "./component_cutomer_02/washing_machine_page";
 import Mobile_page from "./component_cutomer_02/mobile_page";
 import HomeTheater from "./component_cutomer_02/home_theater_page";
+// ********************This is Products Pages End *************************
+
 // *************** Dashboard files******************
 import AdminDashboard from "./component_cutomer_02/AdminDashboard";
 
@@ -52,6 +58,7 @@ const App=()=>{
             <Route path="home_theater_page" element={<HomeTheater/>}/>
             <Route path="adminDashboard" element={<AdminDashboard/>}/>
             <Route path="mobile_page" element={<Mobile_page/>}/>
+            <Route path="laptop_page" element={<Laptop_page/>}/>
             <Route path="tv_page" element={<Tv_page/>}/>
             <Route path="washing_machine_page" element={<Washing_Machine_page/>}/>
             <Route path="headphone_page" element={<Headphone_page/>}/>
