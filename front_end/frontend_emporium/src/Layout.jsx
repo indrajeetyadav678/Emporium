@@ -54,7 +54,7 @@ const Layout = () => {
                             (<li> <Link to="sign_up"className="head-ul" >Sign-up</Link> </li>):
                             (<li> <Link to="sign_up" className="head-ul">Logout</Link> </li>)
                             }
-                            <li> <Link to="addproduct" className="head-ul">addproduct</Link> </li>
+                            {/* <li> <Link to="addproduct" className="head-ul">addproduct</Link> </li> */}
 
                         </ul>
                         
