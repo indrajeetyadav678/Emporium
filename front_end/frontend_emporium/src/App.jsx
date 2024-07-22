@@ -24,6 +24,7 @@ import Washing_Machine_page from "./component_cutomer_02/washing_machine_page";
 import Mobile_page from "./component_cutomer_02/mobile_page";
 import HomeTheater from "./component_cutomer_02/home_theater_page";
 import Watch_page from "./component_cutomer_02/watch_page";
+import Camera_page from "./component_cutomer_02/Camera_page";
 // ********************This is Products Pages End *************************
 
 // *************** Dashboard files******************
@@ -62,6 +63,7 @@ const App=()=>{
             <Route path="laptop_page" element={<Laptop_page/>}/>
             <Route path="ipad_page" element={<Ipad_page/>}/>
             <Route path="watch_page" element={<Watch_page/>}/>
+            <Route path="camera_page" element={<Camera_page/>}/>
 
             <Route path="tv_page" element={<Tv_page/>}/>
             <Route path="washing_machine_page" element={<Washing_Machine_page/>}/>

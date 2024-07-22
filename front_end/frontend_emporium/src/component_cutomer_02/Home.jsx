@@ -29,6 +29,9 @@ const Home=()=>{
     const watch_page= () => {
         Navigate("/watch_page")
     }
+    const camera_page= () => {
+        Navigate("/camera_page")
+    }
 
     return(
          <>
@@ -121,7 +124,7 @@ const Home=()=>{
                 <div className="deals_div_1" onClick={watch_page}></div>
                 <div className="deals_div_2" onClick={washing_machine_page} ></div>
                 <div className="deals_div_3" onClick={mobile_page}></div>
-                <div className="deals_div_4"></div>
+                <div className="deals_div_4" onClick={camera_page}></div>
             </div>
             {/* ********* deals of The Day End ****************** */}
             
