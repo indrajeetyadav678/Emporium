@@ -1,7 +1,12 @@
 import "./style/Cart.css";
 
-
+import { useNavigate } from "react-router-dom";
 const Cart=()=> {
+
+  const Navigate = useNavigate();
+    const checkout = () => {
+        Navigate("/checkout")
+    }
     return (
       <>
       <div className="addcart_container">
@@ -51,7 +56,7 @@ const Cart=()=> {
                 <p>Total</p>
                 <p>$1150</p>
               </div>
-              <button className="btn-2" style={{marginTop:"15px", alignItems:"center", marginLeft:"50px"}}> Checkout</button>
+              <button className="btn-2" style={{marginTop:"15px", alignItems:"center", marginLeft:"50px"}} onClick={checkout}> Checkout</button>
 
           </div>
         </div>
