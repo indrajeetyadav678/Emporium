@@ -161,13 +161,10 @@ label{
         align-items: center;
         padding: 10px;
     }
-<<<<<<< HEAD
-=======
     .para input{
         height: 15px;
         width: 15px;
     }
->>>>>>> 0ed5186a6c79855d24e0efa92c5e013b87d1208c
 }
 
 @media screen and (max-width: 420px) {
@@ -188,11 +185,7 @@ label{
     }
 
     .item, .subtotal, .total, .Bank, .cod, .coupon {
-<<<<<<< HEAD
-        flex-direction: column;
-=======
         /* flex-direction: column; */
->>>>>>> 0ed5186a6c79855d24e0efa92c5e013b87d1208c
         align-items: start;
     }
 
@@ -204,13 +197,10 @@ label{
         width: 100%;
         margin-bottom: 10px;
     }
-<<<<<<< HEAD
-=======
     .para input{
         height: 15px;
         width: 15px;
     }
->>>>>>> 0ed5186a6c79855d24e0efa92c5e013b87d1208c
 
     .coupon input {
         width: 100%;

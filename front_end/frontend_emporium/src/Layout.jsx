@@ -5,12 +5,8 @@ import { BsCart3 } from "react-icons/bs";
 import { FiUser } from "react-icons/fi";
 import { FaBars } from "react-icons/fa";
 import { FaBarsStaggered } from "react-icons/fa6";
-<<<<<<< HEAD
-// import Footer from "./Component/Footer";
-=======
 import { AiOutlineBars } from "react-icons/ai";
 
->>>>>>> bbffac63c75ecc52886319e01e8deb514e22d23d
 import Footer from "./component_customer_011/Footer";
 import { useNavigate } from "react-router-dom";
 import {useAuth0 } from "@auth0/auth0-react";
@@ -62,26 +58,11 @@ const Layout = () => {
                             <li> <Link to="addproduct" className="head-ul">addproduct</Link> </li>
 
                         </ul>
-<<<<<<< HEAD
-                    </div>
-                    <div className="icns">
-=======
                         
->>>>>>> bbffac63c75ecc52886319e01e8deb514e22d23d
                         <div className="search-bar">
                             <input type="text" placeholder="What are you looking for?" />
                                <IoIosSearch  className="search-icon"/>
                         </div>
-<<<<<<< HEAD
-                        <ul>
-                            <li style={{cursor:"pointer"}}><IoHeartOutline /></li>
-                            <li style={{cursor:"pointer"}} onClick={Incart}><BsCart3 /></li>
-                            <li style={{cursor:"pointer"}}><FiUser /></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-=======
                         <div className="head-icon">
                             <li className="head-ul iconh"><IoHeartOutline /></li>
                             <li className="head-ul iconh" onClick={Incart}><BsCart3 /></li>
@@ -91,7 +72,6 @@ const Layout = () => {
                         <label for ="navid" className="label"><AiOutlineBars /></label>
             </div>
             
->>>>>>> bbffac63c75ecc52886319e01e8deb514e22d23d
             <Outlet />
             <Footer />
         </>
