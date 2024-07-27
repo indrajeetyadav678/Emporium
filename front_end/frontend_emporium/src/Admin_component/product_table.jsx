@@ -14,9 +14,6 @@ const Product_table=()=>{
                             <th>Product</th>
                             <th>Image</th>
                             <th>Status</th>
-
-
-
                         </tr>
                     </thead>
                     <tbody>

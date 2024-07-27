@@ -4,15 +4,13 @@ import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useState } from 'react';
 
-
-
 function SignUp() {
   const [input, setInput] = useState({})
   const { loginWithRedirect, user} = useAuth0();
-  console.log("user_name",user.name)
-  // let user_log = {
-  //     "name":user.name,
-  // }
+    console.log("user_name",user.name)
+    let user_log = {
+        "name":"indrajeet",
+    }
   const inputhandle = (e) => {
     let name = e.target.name;
     let value = e.target.value;
@@ -25,9 +23,6 @@ const submithandle = () => {
       alert("Registration successful");
   });
 };
-
-
-
   return (
     <>
       <div className="register">
@@ -44,9 +39,8 @@ const submithandle = () => {
             <input className="input-cont" type="text" value={input.password} name="password" placeholder="Password" onChange={inputhandle} /><br /><br />
             <button className="btn" onClick={submithandle}>Submit</button><br /><br />
             <div className="Ggl-btn">
-              <div className="ggl-icn"><FcGoogle /></div>
+              <div className="ggl-icn" onClick={()=>loginWithRedirect()}><FcGoogle /></div>
               <div>
-
               </div>
             </div>
             <p>Already have account? <Link to="/signin">Log in</Link></p>

@@ -50,10 +50,10 @@ const Layout = () => {
                             <li> <Link to="home" className="head-ul">Home</Link> </li>
                             <li> <Link to="contact"className="head-ul" >Contact</Link> </li>
                             <li> <Link to="about" className="head-ul">About</Link> </li>
-                            {user?
+                            {/* {user? */}
                             (<li> <Link to="sign_up"className="head-ul" >Sign-up</Link> </li>):
                             (<li> <Link to="sign_up" className="head-ul">Logout</Link> </li>)
-                            }
+                            {/* } */}
                             {/* <li> <Link to="addproduct" className="head-ul">addproduct</Link> </li> */}
 
                         </ul>
