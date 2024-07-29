@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* .......................................................................... */
 /* Header.css */
@@ -166,12 +168,14 @@ justify-content: space-between;
     .nav-container span{font-size: 18px;
   
 }
-.head-icon{margin-left: -100px;
+.head-icon{
+    /* margin-left: -100px; */
     display: flex;
     align-items: center;
     justify-content: 
     start;
     margin-right: 100px;
+    display: flex;
 
 }
 .iconh{margin: 15px;}
